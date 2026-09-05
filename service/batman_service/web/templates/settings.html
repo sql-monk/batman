@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}налаштування{% endblock %}
+{% block content %}
+<h2>Сервіс</h2>
+<div class="card">
+<table>
+<tr><td>public_url (адреса, яку пристрої бачать)</td><td><code>{{ cfg.server.public_url or '— не задано: пристрої не підключаться' }}</code></td></tr>
+<tr><td>БД</td><td><code>{{ cfg.db.path }}</code></td></tr>
+<tr><td>Пошук</td><td>mDNS {{ 'так' if cfg.discovery.mdns else 'ні' }}, UDP {{ 'кожні %d с' % cfg.discovery.udp_interval_s if cfg.discovery.udp else 'ні' }}</td></tr>
+<tr><td>Ретенція</td><td>сирі {{ cfg.retention.raw_days }} діб, проріджені {{ cfg.retention.min_days }} діб</td></tr>
+<tr><td>Сповіщення</td><td>SoC &lt; {{ cfg.alerts.soc_alert }} %, offline &gt; {{ cfg.alerts.offline_min }} хв; Telegram {{ 'увімк' if cfg.alerts.telegram.enabled else 'вимк' }}, e-mail {{ 'увімк' if cfg.alerts.email.enabled else 'вимк' }}</td></tr>
+</table>
+<p class=mut>Змінюється у <code>config.toml</code>, після зміни — перезапуск служби.</p>
+</div>
+<div class="card"><h3>Додати пристрій за IP</h3>
+<input id="ip" placeholder="192.168.1.50"> <input id="port" value="80" size=4> <button onclick="addManual()">Додати</button>
+<h3>Пристрої</h3>
+<table>{% for d in devices %}<tr><td><a href="/d/{{ d.id }}">{{ d.name }}</a></td><td>{{ d.ip }}:{{ d.port }}</td><td>{{ d.status }}</td><td>{{ 'sink ok' if d.sink_ok else 'sink —' }}</td>
+<td><button onclick="api('/api/d/{{ d.id }}/connect',{}).then(r=>alert(JSON.stringify(r)))">Підключити</button></td></tr>{% endfor %}</table>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+async function addManual() { const r = await api('/api/devices/manual', { ip: document.getElementById('ip').value, port: +document.getElementById('port').value }); if (r.ok) location.reload(); }
+</script>
+{% endblock %}

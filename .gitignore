@@ -1,0 +1,20 @@
+# Python
+service/.venv/
+service/data/
+service/config.toml
+service/config.e2e.toml
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PlatformIO / Arduino
+firmware/.pio/
+firmware/build/
+
+# Blender
+mechanical/cad/*.blend1
+mechanical/cad/*.blend@
+
+# OS
+.DS_Store
+Thumbs.db

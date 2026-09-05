@@ -1,0 +1,16 @@
+# systemd (Raspberry Pi OS): sudo cp deploy/batman.service /etc/systemd/system/ && sudo systemctl enable --now batman
+[Unit]
+Description=batman battery service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=batman
+WorkingDirectory=/opt/batman/service
+Environment=BATMAN_CONFIG=/opt/batman/service/config.toml
+ExecStart=/opt/batman/service/.venv/bin/python -m batman_service
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}{{ dev.name }}{% endblock %}
+{% block nav %}<a href="/d/{{ dev.id }}">графіки</a><a href="/d/{{ dev.id }}/cycles">цикли</a><a href="/d/{{ dev.id }}/events">події</a><a href="/d/{{ dev.id }}/control">керування</a>{% endblock %}
+{% block content %}
+<div class="row"><h2 style="margin:0">{{ dev.name }}</h2><span class="mut">{{ dev.ip }} · fw {{ dev.fw }}</span>
+  <span style="flex:1"></span>
+  <select id="range" onchange="load()"><option value="1">1 год</option><option value="6">6 год</option><option value="24">24 год</option><option value="168">7 діб</option><option value="720">30 діб</option></select>
+  <a class="btn" href="/api/d/{{ dev.id }}/export.csv?what=samples&hours=24">CSV 24 год</a>
+</div>
+<div class="card"><div id="u"></div></div>
+<div class="card"><div id="i"></div></div>
+<div class="card"><div id="soc"></div></div>
+<div class="card"><div id="dps"></div></div>
+<div class="card"><h3>Останні події</h3><table id="ev"></table></div>
+{% endblock %}
+{% block scripts %}
+<script>
+const DEV = "{{ dev.id }}";
+const plots = {};
+function mk(id, title, series, opts) {
+  const el = document.getElementById(id);
+  const p = new uPlot({ title, width: el.clientWidth || 900, height: 220, series: [{}, ...series], axes: [{}, { size: 60 }], ...(opts||{}) }, [[],[]], el);
+  plots[id] = p; return p;
+}
+mk('u', 'Напруга, В', [{label:'B1', stroke:'#27c'}, {label:'B2', stroke:'#c72'}, {label:'LOAD', stroke:'#888', dash:[4,4]}]);
+mk('i', 'Струм, А (+ заряд / − розряд)', [{label:'B1', stroke:'#27c'}, {label:'B2', stroke:'#c72'}, {label:'LOAD', stroke:'#888', dash:[4,4]}]);
+mk('soc', 'SoC, % і температура, °C', [{label:'SoC B1', stroke:'#27c'}, {label:'SoC B2', stroke:'#c72'}, {label:'T1', stroke:'#2a7', scale:'t'}, {label:'T2', stroke:'#a72', scale:'t'}], { scales: { t: {} }, axes: [{}, {}, { side: 1, scale: 't' }] });
+mk('dps', 'DPS: вхід / вихід, В і струм, А', [{label:'U вхід', stroke:'#555'}, {label:'U вихід', stroke:'#27c'}, {label:'I вихід', stroke:'#c22', scale:'a'}], { scales: { a: {} }, axes: [{}, {}, { side: 1, scale: 'a' }] });
+async function load() {
+  const h = document.getElementById('range').value;
+  const r = await api(`/api/d/${DEV}/series?hours=${h}`);
+  const c = {}; r.cols.forEach((n, k) => c[n] = r.data[k]);
+  plots.u.setData([c.t, c.b1_u, c.b2_u, c.load_u]);
+  plots.i.setData([c.t, c.b1_i, c.b2_i, c.load_i]);
+  plots.soc.setData([c.t, c.b1_soc, c.b2_soc, c.b1_t, c.b2_t]);
+  plots.dps.setData([c.t, c.dps_uin, c.dps_uout, c.dps_iout]);
+  const ev = await api(`/api/d/${DEV}/events?limit=20`);
+  document.getElementById('ev').innerHTML = ev.map(e => `<tr><td class=mut>${ts(e.t)}</td><td>${e.event}</td><td>${e.from_state||''} → ${e.to_state||''}</td><td>${e.reason||''}</td><td class=mut>${e.data||''}</td></tr>`).join('');
+}
+load(); setInterval(load, 10000);
+window.addEventListener('resize', () => Object.values(plots).forEach(p => p.setSize({ width: p.root.parentElement.clientWidth, height: 220 })));
+</script>
+{% endblock %}

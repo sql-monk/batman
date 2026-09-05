@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ dev.name }} — події{% endblock %}
+{% block nav %}<a href="/d/{{ dev.id }}">графіки</a><a href="/d/{{ dev.id }}/cycles">цикли</a><a href="/d/{{ dev.id }}/events">події</a><a href="/d/{{ dev.id }}/control">керування</a>{% endblock %}
+{% block content %}
+<div class="row"><h2 style="margin:0">Події</h2>
+<form method=get><select name="kind" onchange="this.form.submit()">
+{% for k in ['', 'state', 'fault', 'fault_cleared', 'warn', 'switch', 'cycle_complete', 'boot', 'command', 'config', 'calibration', 'dps'] %}
+<option value="{{ k }}" {% if k == kind %}selected{% endif %}>{{ k or 'усі' }}</option>{% endfor %}</select></form>
+<a class="btn" href="/api/d/{{ dev.id }}/export.csv?what=events">CSV</a></div>
+<div class="card"><table>
+{% for e in events %}
+<tr><td class=mut><script>document.write(ts({{ e.t }}))</script></td><td><b>{{ e.event }}</b></td>
+<td>{{ e.from_state or '' }}{% if e.to_state %} → {{ e.to_state }}{% endif %}</td><td>{{ e.reason or '' }}</td><td class=mut>{{ e.data or '' }}</td></tr>
+{% endfor %}
+</table></div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}{{ dev.name }} — керування{% endblock %}
+{% block nav %}<a href="/d/{{ dev.id }}">графіки</a><a href="/d/{{ dev.id }}/cycles">цикли</a><a href="/d/{{ dev.id }}/events">події</a><a href="/d/{{ dev.id }}/control">керування</a>{% endblock %}
+{% block content %}
+<h2>Керування {{ dev.name }}</h2>
+<div class="grid">
+<div class="card"><h3>Заряд</h3>
+  <button onclick="cmd({cmd:'charge_start',bat:1})">Заряд B1</button><button onclick="cmd({cmd:'charge_start',bat:2})">Заряд B2</button>
+  <button class=danger onclick="cmd({cmd:'charge_stop'})">Стоп</button>
+  <h3>Ключі</h3>
+  <button onclick="cmd({cmd:'switch',bat:1,on:true})">SW1 увімк</button><button onclick="cmd({cmd:'switch',bat:1,on:false})">SW1 вимк</button><br>
+  <button onclick="cmd({cmd:'switch',bat:2,on:true})">SW2 увімк</button><button onclick="cmd({cmd:'switch',bat:2,on:false})">SW2 вимк</button>
+  <h3>Аварія</h3><button class=danger onclick="cmd({cmd:'fault_clear'})">Скинути FAULT</button>
+  <h3>Лічильники</h3>
+  <button onclick="cmd({cmd:'soc_set',bat:1,soc:+prompt('SoC B1, %','100')})">SoC B1 :=</button>
+  <button onclick="cmd({cmd:'soc_set',bat:2,soc:+prompt('SoC B2, %','100')})">SoC B2 :=</button>
+  <button onclick="if(confirm('Обнулити лічильники циклу B1?'))cmd({cmd:'counters_reset',bat:1,what:'cycle'})">Скинути цикл B1</button>
+  <button onclick="if(confirm('Обнулити лічильники циклу B2?'))cmd({cmd:'counters_reset',bat:2,what:'cycle'})">Скинути цикл B2</button>
+</div>
+<div class="card"><h3>Калібрування</h3>
+  <p class=mut>Нуль: зняти запобіжник гілки (струм гарантовано 0), потім натиснути. Масштаб: під час заряду з постійним струмом ввести показання DSN-VC288 або мультиметра.</p>
+  <button onclick="cmd({cmd:'calibrate_zero',ch:1})">Нуль I_B1</button><button onclick="cmd({cmd:'calibrate_zero',ch:2})">Нуль I_B2</button><button onclick="cmd({cmd:'calibrate_zero',ch:3})">Нуль I_LOAD</button><br>
+  <button onclick="cmd({cmd:'calibrate_gain',ch:1,i_ref:+prompt('Еталонний струм B1, А')})">Масштаб I_B1</button>
+  <button onclick="cmd({cmd:'calibrate_gain',ch:2,i_ref:+prompt('Еталонний струм B2, А')})">Масштаб I_B2</button><br>
+  <button onclick="cmd({cmd:'calibrate_ugain',ch:1,u_ref:+prompt('Еталонна напруга B1, В')})">Масштаб U_B1</button>
+  <button onclick="cmd({cmd:'calibrate_ugain',ch:2,u_ref:+prompt('Еталонна напруга B2, В')})">Масштаб U_B2</button>
+  <button onclick="cmd({cmd:'calibrate_ugain',ch:'load',u_ref:+prompt('Еталонна напруга LOAD, В')})">Масштаб U_LOAD</button>
+  <h3>Пристрій</h3>
+  <button onclick="if(confirm('Перезавантажити?'))cmd({cmd:'reboot'})">Перезавантажити</button>
+  <form id="ota" onsubmit="return ota(event)"><input type=file name=f accept=".bin"><button>OTA</button></form>
+</div>
+</div>
+<div class="card"><h3>Конфіг</h3>
+{% if config %}
+<textarea id="cfg" style="width:100%;height:24em;font-family:monospace">{{ config | tojson(indent=1) }}</textarea>
+<button onclick="saveCfg()">Записати</button> <span class=mut>надсилається як часткове оновлення; limits — лише читання</span>
+{% else %}<p class=bad>Пристрій не відповідає на /config</p>{% endif %}
+</div>
+<pre id="out"></pre>
+{% endblock %}
+{% block scripts %}
+<script>
+const DEV = "{{ dev.id }}";
+async function cmd(b) { const r = await api(`/api/d/${DEV}/control`, b); document.getElementById('out').textContent = JSON.stringify(r); }
+async function saveCfg() { let j; try { j = JSON.parse(document.getElementById('cfg').value); } catch (e) { alert('JSON: ' + e); return; }
+  delete j.limits; delete j.v; const r = await api(`/api/d/${DEV}/config`, j); document.getElementById('out').textContent = JSON.stringify(r, null, 1); }
+async function ota(e) { e.preventDefault(); const f = e.target.f.files[0]; if (!f) return false;
+  const fd = new FormData(); fd.append('update', f); const r = await fetch(`http://{{ dev.ip }}:{{ dev.port or 80 }}/update`, { method: 'POST', body: fd, mode: 'no-cors' });
+  document.getElementById('out').textContent = 'OTA надіслано; пристрій перезавантажиться'; return false; }
+</script>
+{% endblock %}

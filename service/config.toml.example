@@ -1,0 +1,36 @@
+[server]
+host = "0.0.0.0"
+port = 8000
+# Адреса, за якою пристрої бачать сервіс (іде в POST /sink)
+public_url = "http://192.168.1.10:8000"
+
+[db]
+path = "data/batman.db"
+
+[discovery]
+mdns = true
+udp = true
+udp_interval_s = 60
+# Ручний список: [["a1b2c3", "192.168.1.50"]]
+manual = []
+
+[retention]
+raw_days = 90
+min_days = 365
+
+[alerts]
+soc_alert = 20
+offline_min = 5
+
+[alerts.telegram]
+enabled = false
+token = ""
+chat_id = ""
+
+[alerts.email]
+enabled = false
+smtp = "smtp.example.com:587"
+user = ""
+password = ""
+from = "batman@example.com"
+to = "me@example.com"

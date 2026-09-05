@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ dev.name }} — цикли{% endblock %}
+{% block nav %}<a href="/d/{{ dev.id }}">графіки</a><a href="/d/{{ dev.id }}/cycles">цикли</a><a href="/d/{{ dev.id }}/events">події</a><a href="/d/{{ dev.id }}/control">керування</a>{% endblock %}
+{% block content %}
+<div class="row"><h2 style="margin:0">Цикли заряду</h2><a class="btn" href="/api/d/{{ dev.id }}/export.csv?what=cycles">CSV</a><a class="btn" href="/api/d/{{ dev.id }}/export.csv?what=agg_day">агрегати по добах CSV</a></div>
+<div class="card"><table>
+<tr><th>Початок</th><th>Bat</th><th>Тривалість</th><th class=num>А·год у</th><th class=num>А·год з (попер.)</th><th class=num>Вт·год у</th><th class=num>Ефект.</th><th>Завершення</th><th class=num>U старт</th></tr>
+{% for c in cycles %}
+<tr><td><script>document.write(ts({{ c.t_start }}))</script></td><td>B{{ c.bat }}</td>
+<td>{% if c.duration_s %}{{ (c.duration_s // 3600) }} год {{ ((c.duration_s % 3600) // 60) }} хв{% else %}триває{% endif %}</td>
+<td class=num>{{ '%.2f' % c.ah_in if c.ah_in is not none else '—' }}</td>
+<td class=num>{{ '%.2f' % c.ah_out if c.ah_out is not none else '—' }}</td>
+<td class=num>{{ '%.0f' % c.wh_in if c.wh_in is not none else '—' }}</td>
+<td class=num>{{ '%.0f %%' % (c.eff * 100) if c.eff else '—' }}</td>
+<td>{{ c.end_reason or '' }}</td><td class=num>{{ '%.2f' % c.u_start if c.u_start else '—' }}</td></tr>
+{% endfor %}
+</table></div>
+{% endblock %}

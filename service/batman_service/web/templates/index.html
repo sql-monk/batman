@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row"><h2 style="margin:0">Пристрої</h2><button onclick="discover()">Знайти</button><span id="found" class="mut"></span></div>
+<div id="list" class="grid"></div>
+{% endblock %}
+{% block scripts %}
+<script>
+function card(d) {
+  const l = d.last || {}; const b1 = l.b1 || {}, b2 = l.b2 || {}, dps = l.dps || {};
+  const st = (l.state || '—'); const cls = st.startsWith('CHG') ? 'CHG' : st;
+  return `<div class="card">
+    <div class="row"><a class="big" href="/d/${d.id}">${d.name || d.id}</a>
+      <span class="${d.online ? 'ok' : 'bad'}">${d.online ? 'online' : 'offline'}</span>
+      <span class="state ${cls}">${st}</span><span class="mut">${d.ip || ''} · fw ${d.fw || '?'} · ${d.status}</span></div>
+    <table><tr><th></th><th>U</th><th>I</th><th>SoC</th><th>T</th><th>ключ</th></tr>
+      <tr><td>B1 LiFePO₄</td><td class=num>${fmt(b1.u)} В</td><td class=num>${fmt(b1.i)} А</td><td class=num>${fmt(b1.soc,0)} %</td><td class=num>${fmt(b1.t,1)} °C</td><td>${b1.sw||'—'}</td></tr>
+      <tr><td>B2 свинець</td><td class=num>${fmt(b2.u)} В</td><td class=num>${fmt(b2.i)} А</td><td class=num>${fmt(b2.soc,0)} %</td><td class=num>${fmt(b2.t,1)} °C</td><td>${b2.sw||'—'}</td></tr>
+      <tr><td>Навантаження</td><td class=num>${fmt((l.load||{}).u)} В</td><td class=num>${fmt((l.load||{}).i)} А</td><td colspan=3 class=mut>DPS ${dps.ok ? (dps.on ? 'ON ' + fmt(dps.uout) + ' В / ' + fmt(dps.iout) + ' А' : 'off') : '—'} · вхід ${fmt(dps.uin,1)} В · K${dps.k ?? '-'}</td></tr>
+    </table>
+    ${l.fault ? `<div class=bad>FAULT ${l.fault.code}</div>` : ''}
+    ${(l.warn||[]).length ? `<div class=warn>${l.warn.join(', ')}</div>` : ''}
+    <div class="mut">останнє: ${ts(l._t)} ${d.sink_ok ? '' : '· <button onclick="connect(\'' + d.id + '\')">Підключити</button>'}</div>
+  </div>`;
+}
+function render(list) { document.getElementById('list').innerHTML = list.map(card).join('') || '<p class=mut>Пристроїв ще немає — натисни «Знайти» або додай IP у налаштуваннях.</p>'; }
+async function discover() { const r = await api('/api/discover', {}); document.getElementById('found').textContent = 'знайдено: ' + (r.found||[]).length; render(await api('/api/devices')); }
+async function connect(id) { const r = await api('/api/d/' + id + '/connect', {}); alert(JSON.stringify(r)); render(await api('/api/devices')); }
+render({{ devices | tojson }});
+const es = new EventSource('/api/stream'); es.onmessage = e => render(JSON.parse(e.data));
+</script>
+{% endblock %}

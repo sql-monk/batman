@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}batman{% endblock %}</title>
+<link rel="stylesheet" href="/static/uPlot.min.css">
+<style>
+  :root { --bg:#fafafa; --fg:#222; --mut:#666; --card:#fff; --line:#ddd; --ok:#2a7; --warn:#c80; --bad:#c33; }
+  body { font-family: system-ui, sans-serif; margin: 0; background: var(--bg); color: var(--fg); }
+  header { background: #223; color: #eee; padding: .6em 1em; display: flex; gap: 1.5em; align-items: center; }
+  header a { color: #eee; text-decoration: none; } header a:hover { text-decoration: underline; }
+  main { max-width: 1100px; margin: 1em auto; padding: 0 1em; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 1em; margin-bottom: 1em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; }
+  table { border-collapse: collapse; width: 100%; } th, td { text-align: left; padding: .3em .5em; border-bottom: 1px solid var(--line); font-size: .92em; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); } .mut { color: var(--mut); }
+  button, .btn { padding: .35em .8em; border: 1px solid #889; background: #eef; border-radius: 6px; cursor: pointer; margin: .15em; }
+  button.danger { background: #fdd; border-color: #c66; }
+  input, select { padding: .3em; margin: .1em 0; }
+  .big { font-size: 1.6em; font-weight: 600; }
+  .row { display: flex; gap: 1em; flex-wrap: wrap; align-items: baseline; }
+  .state { display: inline-block; padding: .1em .5em; border-radius: 4px; background: #eef; }
+  .state.CHG { background: #dfd; } .state.FAULT { background: #fcc; } .state.NO_INPUT { background: #fed; }
+  pre { background: #f2f2f2; padding: .5em; overflow: auto; }
+</style>
+</head>
+<body>
+<header>
+  <a href="/"><b>batman</b></a>
+  {% block nav %}{% endblock %}
+  <span style="flex:1"></span>
+  <a href="/settings">налаштування</a>
+</header>
+<main>{% block content %}{% endblock %}</main>
+<script src="/static/uPlot.iife.min.js"></script>
+<script>
+async function api(path, body, method) {
+  const r = await fetch(path, { method: method || (body ? 'POST' : 'GET'), headers: {'Content-Type': 'application/json'}, body: body ? JSON.stringify(body) : undefined });
+  let j; try { j = await r.json(); } catch { j = { raw: await r.text() }; }
+  if (!r.ok) alert((j && (j.error || j.raw)) || ('HTTP ' + r.status));
+  return j;
+}
+function fmt(v, d) { return (v === null || v === undefined) ? '—' : Number(v).toFixed(d === undefined ? 2 : d); }
+function ts(ms) { return ms ? new Date(ms).toLocaleString() : '—'; }
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
