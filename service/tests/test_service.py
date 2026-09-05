@@ -75,3 +75,26 @@ def test_cycles():
     aggregate.on_state_event(dev, t + 5000_000, {"from": "CHG_B1_CV", "to": "IDLE", "reason": "tail_current"})
     c = [dict(r) for r in db.q("SELECT * FROM cycle WHERE device_id=?", (dev,))]
     assert len(c) == 1 and c[0]["ah_in"] == 12.5 and c[0]["t_end"] is not None and c[0]["end_reason"] == "complete"
+
+
+def test_main_cli_overrides(monkeypatch, tmp_path):
+    calls = {}
+
+    def fake_run(app, host, port, log_level):
+        calls["app"] = app
+        calls["host"] = host
+        calls["port"] = port
+        calls["log_level"] = log_level
+
+    monkeypatch.setattr("batman_service.__main__.uvicorn.run", fake_run)
+
+    cfg_path = tmp_path / "custom.toml"
+    cfg_path.write_text('[server]\nhost = "0.0.0.0"\nport = 9000\npublic_url = "http://example.local"\n', encoding="utf-8")
+
+    from batman_service import __main__ as main_mod
+    main_mod.main(["--config", str(cfg_path), "--host", "127.0.0.2", "--port", "9100"])
+
+    assert calls["app"] == "batman_service.main:app"
+    assert calls["host"] == "127.0.0.2"
+    assert calls["port"] == 9100
+    assert calls["log_level"] == "info"
