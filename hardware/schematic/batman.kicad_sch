@@ -2,7 +2,7 @@
   (version 20251024)
   (generator "batman_gen")
   (generator_version "1.0")
-  (uuid "bb117f8f-5cc8-4cab-befe-830f3e1e9ea9")
+  (uuid "5fff83d6-d1f8-41ff-8dda-774162ba8761")
   (paper "A4")
   (title_block
     (title "batman — менеджер двох акумуляторів (LiFePO₄ 8S + Pb 24 В)")
@@ -19,7 +19,7 @@
       )
       (justify left top)
     )
-    (uuid "024d08b5-dd79-4039-aee0-07cbd8812f49")
+    (uuid "a37f94bc-dc0d-4f51-9829-252ddaec270f")
   )
   (text "Імена ланцюгів: вузли (B1, B2, LOAD+, CHG, GND, +5V, +3V3, +3V3_SENS) і номери проводів P##/L## для двоточкових з'єднань."
     (exclude_from_sim no)
@@ -30,7 +30,7 @@
       )
       (justify left top)
     )
-    (uuid "f75a7b7d-f197-4b1c-b95d-c14b4b38b046")
+    (uuid "58fd473f-52d4-4034-a8d3-aa3a0d556f6f")
   )
   (sheet
     (at 30.48 60.96)
@@ -46,7 +46,7 @@
     (fill
       (color 0 0 0 0.0000)
     )
-    (uuid "d7fd05fd-fc13-4a65-a53f-3595d39f124f")
+    (uuid "8f25bd68-cf32-420a-a4fe-fef6c45a2c43")
     (property "Sheetname" "power"
       (at 30.48 60.26 0)
       (effects
@@ -67,7 +67,7 @@
     )
     (instances
       (project "batman"
-        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+        (path "/5fff83d6-d1f8-41ff-8dda-774162ba8761"
           (page "2")
         )
       )
@@ -87,7 +87,7 @@
     (fill
       (color 0 0 0 0.0000)
     )
-    (uuid "b3f6d18b-5b19-41cb-b4c4-6f3b5744edf4")
+    (uuid "f9f0977d-6613-4fb1-a808-313c6cd2e981")
     (property "Sheetname" "charge"
       (at 91.44 60.26 0)
       (effects
@@ -108,7 +108,7 @@
     )
     (instances
       (project "batman"
-        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+        (path "/5fff83d6-d1f8-41ff-8dda-774162ba8761"
           (page "3")
         )
       )
@@ -128,7 +128,7 @@
     (fill
       (color 0 0 0 0.0000)
     )
-    (uuid "f6521d3a-7bbc-4cb4-b5e1-44cfdd4ad4aa")
+    (uuid "650ac2d8-5daf-4e26-b148-75134734ae5f")
     (property "Sheetname" "sense"
       (at 152.4 60.26 0)
       (effects
@@ -149,7 +149,7 @@
     )
     (instances
       (project "batman"
-        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+        (path "/5fff83d6-d1f8-41ff-8dda-774162ba8761"
           (page "4")
         )
       )
@@ -169,7 +169,7 @@
     (fill
       (color 0 0 0 0.0000)
     )
-    (uuid "4b1c012a-fc93-4450-8aad-b013cfa30a54")
+    (uuid "0d95c7f9-4f22-41d9-9831-fe7d3f3e3821")
     (property "Sheetname" "logic"
       (at 213.35999999999999 60.26 0)
       (effects
@@ -190,7 +190,7 @@
     )
     (instances
       (project "batman"
-        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+        (path "/5fff83d6-d1f8-41ff-8dda-774162ba8761"
           (page "5")
         )
       )

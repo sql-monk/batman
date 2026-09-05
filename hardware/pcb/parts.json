@@ -58,7 +58,7 @@
  {
   "ref": "R7",
   "value": "1k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -72,7 +72,7 @@
  {
   "ref": "R8",
   "value": "1k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -86,7 +86,7 @@
  {
   "ref": "R9",
   "value": "1k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -100,14 +100,14 @@
  {
   "ref": "R1",
   "value": "100k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R2",
   "value": "10k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -121,14 +121,14 @@
  {
   "ref": "R3",
   "value": "100k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R4",
   "value": "10k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -142,14 +142,14 @@
  {
   "ref": "R5",
   "value": "100k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R6",
   "value": "4.7k 1%",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -191,14 +191,14 @@
  {
   "ref": "R10",
   "value": "4.7k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R11",
   "value": "10k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -219,14 +219,14 @@
  {
   "ref": "R12",
   "value": "1k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R13",
   "value": "10k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -240,14 +240,14 @@
  {
   "ref": "R14",
   "value": "1k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R15",
   "value": "10k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
@@ -303,21 +303,21 @@
  {
   "ref": "R16",
   "value": "4.7k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R17",
   "value": "4.7k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },
  {
   "ref": "R18",
   "value": "4.7k",
-  "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
   "board": "A",
   "lib_id": "Device:R"
  },

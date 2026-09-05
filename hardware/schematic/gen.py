@@ -361,7 +361,7 @@ def std(ref, lib_id, value, x, y, nets: dict[str, str], fp="", on_board=True):
     return Part(ref, lib_id, value, x, y, nets, fp, on_board)
 
 
-FP_R = "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+FP_R = "Resistor_SMD:R_1206_3216Metric"  # SMD — без свердління (18 шт. виводних довелось би сверлити вручну)
 FP_C = "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 FP_CP = "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 FP_D = "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
@@ -531,7 +531,7 @@ def write_project(sheets: list[Sheet]):
 PLATE_B = {"C1", "C2", "D3", "XLP", "XGND"}
 
 BOM_WHAT = {  # lib_id → що це (для стандартних символів); модулі беруть Description з MODULES
-    "Device:R": "резистор 0,25 Вт (1206 або вивідний — суміщене місце)",
+    "Device:R": "резистор 0,25 Вт, SMD 1206",
     "Device:C": "керамічний конденсатор",
     "Device:C_Polarized": "електроліт 50 В, буфер шини LOAD+",
     "Device:D_Schottky": "Шотткі «АБО» живлення логіки з B1/B2",
