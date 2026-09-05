@@ -1,0 +1,38 @@
+** Drc report for plate_B.kicad_pcb **
+** Created on 2026-09-06T01:55:26 **
+** Report includes: Errors **
+
+** Found 0 DRC violations **
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.7197 mm, 15.2750 mm): PTH pad 1 [LOAD+] of C1
+    @(19.3197 mm, 12.5250 mm): PTH pad 1 [LOAD+] of C2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(18.2250 mm, 5.5250 mm): PTH pad 1 [LOAD+] of XLP
+    @(19.3197 mm, 12.5250 mm): PTH pad 1 [LOAD+] of C2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(23.2250 mm, 5.5250 mm): PTH pad 2 [LOAD+] of XLP
+    @(18.2250 mm, 5.5250 mm): PTH pad 1 [LOAD+] of XLP
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(28.2250 mm, 5.5250 mm): PTH pad 3 [LOAD+] of XLP
+    @(23.2250 mm, 5.5250 mm): PTH pad 2 [LOAD+] of XLP
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.5297 mm, 13.0750 mm): PTH pad 2 [LOAD+] of D3
+    @(28.2250 mm, 5.5250 mm): PTH pad 3 [LOAD+] of XLP
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

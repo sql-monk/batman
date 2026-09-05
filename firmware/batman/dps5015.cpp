@@ -92,12 +92,16 @@ bool dpsSetUI(float u, float i) {
   if (i > Config::I_SET_MAX) i = Config::I_SET_MAX;
   if (u < 0) u = 0; if (i < 0) i = 0;
   uint16_t v[2] = { (uint16_t)lroundf(u * 100), (uint16_t)lroundf(i * 100) };
-  return dpsWriteMany(0x0000, v, 2);
+  if (dpsWriteMany(0x0000, v, 2)) return true;
+  // 0x10 не підтверджений на всіх екземплярах; 0x06 — перевірений (MultiPowerDelivery)
+  return dpsWrite(0x0000, v[0]) && dpsWrite(0x0001, v[1]);
 }
 
 bool dpsWriteM0Safe() {
   // U-SET 20,00 В, I-SET 1,00 А, OVP 31,00 В, OCP 12,50 А; S-INI (0x0057) = 0
   uint16_t v[4] = { 2000, 100, 3100, 1250 };
-  if (!dpsWriteMany(0x0050, v, 4)) return false;
+  if (!dpsWriteMany(0x0050, v, 4)) {
+    for (int k = 0; k < 4; k++) if (!dpsWrite(0x0050 + k, v[k])) return false;
+  }
   return dpsWrite(0x0057, 0);
 }

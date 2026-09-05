@@ -341,5 +341,10 @@ int controlCmd(const char* cmd, JsonVariantConst a, String& err) {
   if (!strcmp(cmd, "soc_set")) { int bat = a["bat"] | 0; if (bat < 1 || bat > 2 || !a["soc"].is<float>()) { err = "bat/soc"; return 400; } measureSetSoc(bat, a["soc"]); return 200; }
   if (!strcmp(cmd, "counters_reset")) { int bat = a["bat"] | 0; if (bat < 1 || bat > 2) { err = "bat"; return 400; } const char* w = a["what"] | "cycle"; measureResetCounters(bat, !strcmp(w, "total")); return 200; }
   if (!strcmp(cmd, "reboot")) { measureSaveCounters(); delay(200); ESP.restart(); return 200; }
+  if (!strcmp(cmd, "dps_m0")) {
+    if (stIsCharging(st)) { err = "charging"; return 409; }
+    if (!dpsWriteM0Safe()) { err = "dps write failed"; return 502; }
+    eventEmit("config", "\"data\":{\"changed\":\"dps_m0\"}"); return 200;
+  }
   err = "unknown cmd"; return 400;
 }

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "batman")(type "KiCad")(uri "${KIPRJMOD}/lib/batman.kicad_sym")(options "")(descr "модулі batman"))
+)

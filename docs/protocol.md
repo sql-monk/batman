@@ -111,6 +111,7 @@
 | `calibrate_ugain` | `ch: 1\|2\|load`, `u_ref` | масштаб напруги |
 | `soc_set` | `bat`, `soc` | примусово задати SoC |
 | `counters_reset` | `bat`, `what: "cycle"\|"total"` | обнулити лічильники |
+| `dps_m0` | — | записати в DPS групу M0 (старт із вимкненим виходом, OVP 31 В, OCP 12,5 А); не під час заряду |
 | `reboot` | — | |
 
 Відповідь: `200 {"ok":true}` або `4xx {"ok":false,"error":"текст"}`. Помилки: `400` формат, `409` стан не дозволяє (`"charging other battery"`), `423` FAULT активний.

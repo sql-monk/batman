@@ -1,0 +1,204 @@
+(kicad_sch
+  (version 20251024)
+  (generator "batman_gen")
+  (generator_version "1.0")
+  (uuid "bb117f8f-5cc8-4cab-befe-830f3e1e9ea9")
+  (paper "A4")
+  (title_block
+    (title "batman — менеджер двох акумуляторів (LiFePO₄ 8S + Pb 24 В)")
+    (rev "A")
+    (company "batman")
+  )
+  (lib_symbols)
+  (text "Схема з docs/connections.md; генерується hardware/schematic/gen.py. Аркуші: power, charge, sense, logic."
+    (exclude_from_sim no)
+    (at 20 30 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+      )
+      (justify left top)
+    )
+    (uuid "024d08b5-dd79-4039-aee0-07cbd8812f49")
+  )
+  (text "Імена ланцюгів: вузли (B1, B2, LOAD+, CHG, GND, +5V, +3V3, +3V3_SENS) і номери проводів P##/L## для двоточкових з'єднань."
+    (exclude_from_sim no)
+    (at 20 34 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+      )
+      (justify left top)
+    )
+    (uuid "f75a7b7d-f197-4b1c-b95d-c14b4b38b046")
+  )
+  (sheet
+    (at 30.48 60.96)
+    (size 45.72 20.32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0.0000)
+    )
+    (uuid "d7fd05fd-fc13-4a65-a53f-3595d39f124f")
+    (property "Sheetname" "power"
+      (at 30.48 60.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "power.kicad_sch"
+      (at 30.48 81.86 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "batman"
+        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+          (page "2")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 91.44 60.96)
+    (size 45.72 20.32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0.0000)
+    )
+    (uuid "b3f6d18b-5b19-41cb-b4c4-6f3b5744edf4")
+    (property "Sheetname" "charge"
+      (at 91.44 60.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "charge.kicad_sch"
+      (at 91.44 81.86 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "batman"
+        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+          (page "3")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 152.4 60.96)
+    (size 45.72 20.32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0.0000)
+    )
+    (uuid "f6521d3a-7bbc-4cb4-b5e1-44cfdd4ad4aa")
+    (property "Sheetname" "sense"
+      (at 152.4 60.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "sense.kicad_sch"
+      (at 152.4 81.86 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "batman"
+        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+          (page "4")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 213.35999999999999 60.96)
+    (size 45.72 20.32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0.0000)
+    )
+    (uuid "4b1c012a-fc93-4450-8aad-b013cfa30a54")
+    (property "Sheetname" "logic"
+      (at 213.35999999999999 60.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "logic.kicad_sch"
+      (at 213.35999999999999 81.86 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "batman"
+        (path "/bb117f8f-5cc8-4cab-befe-830f3e1e9ea9"
+          (page "5")
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)
