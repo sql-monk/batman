@@ -822,5 +822,25 @@
     "T32": 4,
     "S32": 10,
     "L32": 3
-  }
+  },
+  "equal_inventory_examples": [
+    {
+      "D32": 2,
+      "L32": 2,
+      "S32": 2
+    },
+    {
+      "D32": 2,
+      "L32": 2,
+      "S32": 2
+    }
+  ],
+  "views": [
+    "BATMAN - modular cable alternatives",
+    "BATMAN - modular cable assembly",
+    "BATMAN - modular cable cutaway",
+    "BATMAN - modular cable kit",
+    "BATMAN - modular cable levels"
+  ],
+  "full_nut_engagement": true
 }
