@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "parts_checked": 109,
+  "carriers_checked": 10,
+  "vertical_slide_clearance_mm": 0.4,
+  "failures": [],
+  "not_checked": [
+    "mesh intersections",
+    "rail fastening",
+    "clip retention",
+    "actual connector and harness fit",
+    "print bed contact",
+    "thermal performance"
+  ]
+}

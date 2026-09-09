@@ -1,0 +1,60 @@
+(footprint "Mount_M3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "HB3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e77c30fc-446a-405a-a570-44555691432c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "M3_NPTH_3.4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bed93c75-8862-48e6-9de1-1c1f69b92b42")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1022fb7e-0749-4f9c-9fc2-a80d3b5a9c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8b3e770-8d56-470e-82dd-ddaca9692eec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu")
+		(uuid "7bfb5541-f7ad-472d-8564-b14890eaf590")
+	)
+	(embedded_fonts no)
+)

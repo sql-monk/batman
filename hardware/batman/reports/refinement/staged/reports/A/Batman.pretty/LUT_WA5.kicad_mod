@@ -1,0 +1,76 @@
+(footprint "LUT_WA5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "WA5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "82057339-763d-4100-9bf0-11caeacc6607")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "INSULATED_WIRE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c978b76-0bb1-4e70-ad32-09a8a63eea90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09f2d21c-4df0-4627-9f05-5c11ea5a35f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a3669a3-90de-4187-9feb-23678e322919")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 0)
+		(end 0 10.82)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "44477bb6-7c76-41d4-a674-3fec9ad59c86")
+	)
+	(pad "1" smd circle
+		(at 0 0 270)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "42b219d0-182a-453a-89f6-a414d49b65c2")
+	)
+	(pad "1" smd rect
+		(at 0 10.82 90)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "c619f2d7-0a43-437b-947d-8459fda4f56e")
+	)
+	(embedded_fonts no)
+)

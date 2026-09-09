@@ -1,0 +1,85 @@
+(footprint "LUT_X5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "X5"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "0b096498-3a8e-4dff-bdaf-f2cc7f94a4e9")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "U_LOAD_SENSE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e63337-9d36-4415-a8cb-b7364074b37c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef372467-00e1-464f-9629-044ef400a2e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db6448c0-7ef0-46ba-a652-f54e47829239")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce5539e5-eb95-45ca-993b-2b413dc0056a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5e00d2ef-7675-4d81-93ff-bb06c11ec949")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "d3b34586-0139-41b2-9bb2-f7bd222b379d")
+	)
+	(embedded_fonts no)
+)

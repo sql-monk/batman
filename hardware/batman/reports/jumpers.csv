@@ -1,0 +1,8 @@
+﻿Ref,Net,A_X1_mm,A_Y1_mm,X2_mm,Y2_mm,Wire_cut_min_mm,End1,End2,End1_contact,End2_contact
+W1,+3V3,32.0,12.0,16.54,40.5,32.42,existing pad,existing pad,J1.1,Q3.3
+W2,+3V3_SENS,94.0,51.08,11.46,40.5,83.22,existing pad,existing pad,J3.3,Q3.1
+W3,BASE1,15.0,52.54,25.1,37.4,18.2,existing pad,existing pad,Q1.2,R12.2
+W4,I_B1,77.0,31.24,77.0,41.76,10.52,existing pad,existing pad,J2.7,C7.1
+W5,SDA,77.0,23.62,71.08,8.0,16.7,existing pad,existing pad,J2.4,J10.3
+W6,SW2_ON,32.0,34.86,18.46,35.8,13.57,existing pad,existing pad,J1.10,J7.2
+W7,U_B1,72.0,44.76,77.0,51.1,8.07,existing pad,existing pad,C3.1,R2.1

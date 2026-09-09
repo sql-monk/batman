@@ -1,0 +1,115 @@
+(footprint "LUT_VD1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "VD1"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "da3427ae-46e9-44f1-8b8b-d70cd4c93387")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1N5819"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a8db67-f779-4209-a50e-53c1634ba445")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37d4f261-e2eb-4a38-aa66-4728f01c74a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d54359ac-9786-412a-93d3-cbcdb369f77c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05836e6a-2352-4797-a7b3-0ae8312bc647")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57c95319-41cc-4699-92af-92f4e7473577")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -3.81 0)
+		(end -5.01 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c355fc37-63aa-4b7a-a771-cbc87dda4336")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 2.61 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "544f9dc2-244e-4e85-a1ff-de0c754bb8fe")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "21c2b33d-a45f-48c5-94b5-ecd8a73caede")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "1d5eab2b-41bc-4db1-b557-8775e353a89e")
+	)
+	(embedded_fonts no)
+)

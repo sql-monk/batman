@@ -1,0 +1,4637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\repos\batman-a\hardware\batman\reports\routing45\staged\batman.kicad_sch</source>
+    <date>2026-09-09T21:52:37</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BATMAN - dual battery manager</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>batman.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/">
+      <title_block>
+        <title>BATMAN - POWER</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/">
+      <title_block>
+        <title>BATMAN - CHARGE</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>charge.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/">
+      <title_block>
+        <title>BATMAN - SENSE</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>sense.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/">
+      <title_block>
+        <title>BATMAN - LOGIC</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>logic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/">
+      <title_block>
+        <title>BATMAN - SUPPLY3</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>supply3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/">
+      <title_block>
+        <title>BATMAN - SUPPLY5</title>
+        <company/>
+        <rev>A-prototype</rev>
+        <date>2026-09-09</date>
+        <source>supply5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100u_50V_ALUMINIUM</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>9f0b81e9-05d0-5a0d-9ba5-a7e67e9362a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n_50V</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>d41c36eb-f8d3-59d9-bc80-690ceb73471e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1.5KE33A_DNP</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="D3" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="dnp"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>5772e3e3-9052-55b2-9f37-f4ad1b9055d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>ATO_15A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="F1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>f348db41-97b9-5034-bc11-5820d579f10d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>ATO_15A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="F2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>16c6acaa-4a18-58bf-bc9c-18872d778b39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Fout1">
+      <value>ATO_15A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">Fout</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="Fout1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="Fout"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>7ecb2743-ee3b-588c-ab60-1844861f4f1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mACS1">
+      <value>ACS711EX_15.5A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mACS1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>2ebaba86-2231-58e5-b31e-db4931f368a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mACS2">
+      <value>ACS711EX_15.5A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mACS2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>edbc6041-0921-56fc-87ab-cc9cb3c7eb6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mACS3">
+      <value>ACS711EX_15.5A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mACS3" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>da3d8570-9a77-52e1-adb3-e8b905bef438</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mDIO1">
+      <value>XL74610</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mDIO1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>f7d92f68-af9f-5f84-b387-ae3144cbd6ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mDIO2">
+      <value>XL74610</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mDIO2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>addcff36-0ba6-5dde-bdb3-586bfdf90db0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mSW1">
+      <value>Pololu_2815_HP</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mSW1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>d80ccfb4-39fe-597a-abcc-7e12be022c55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mSW2">
+      <value>Pololu_2815_HP</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mSW2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>6e6e475b-cbff-5288-9895-6f0d2a59fdb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XB1">
+      <value>BAT1_PANEL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XB1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>75073ae3-4af5-5042-9d7e-1d50ae07e34f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XB2">
+      <value>BAT2_PANEL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XB2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>b1a70d48-4ba4-58bd-a6e7-fbaa81e5beea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XGND1">
+      <value>GND_P24_P25_P26_P27_P28</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">XGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XGND1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="XGND"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>81a9722f-370b-5103-962e-554c30568e82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XLOAD1">
+      <value>LOAD_PANEL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">XLOAD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XLOAD1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="XLOAD"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>01971ab0-d530-5608-ae6c-e28a072f2b39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XLP1">
+      <value>LOAD_P06_P12_P13</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">XLP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XLP1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="XLP"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/power/" tstamps="/bd8e4e86-b4cd-5e26-92f4-a817c94368dc/"/>
+      <tstamps>3b31b546-231e-51ae-bf3e-82b17ae5bb7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Fchg1">
+      <value>ATO_15A</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">Fchg</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="Fchg1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="Fchg"/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>03f6347c-91b3-57e8-8bd7-12a9bcdc3bce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mDC5">
+      <value>LM2596_SET_5.0V_FIRST</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mDC5" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>5ce28b6d-f60c-5d23-b01c-fff9c3310a3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mDIO3">
+      <value>XL74610</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mDIO3" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>07d1ee08-7aca-592c-9a71-ac46dadcd6dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mDPS1">
+      <value>DPS5015_9600_8N1_ADDR1</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">mDPS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mDPS1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="mDPS"/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>4a169155-4ac8-5bf0-b654-f860fbda0659</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mREL2">
+      <value>FL_3FF_5V_10A_REMOVE_JUMPER</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mREL2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>e341474a-c2da-5373-8777-82849832b25d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="XPSU1">
+      <value>PSU_33V_10A_PANEL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">XPSU</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="XPSU1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="XPSU"/>
+      <property name="Sheetname" value="charge"/>
+      <property name="Sheetfile" value="charge.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/charge/" tstamps="/14a13539-02d6-5116-9eea-ba3a0bbc3af3/"/>
+      <tstamps>05ce263d-eca3-5919-8950-898e265fb156</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n_50V</value>
+      <footprint>Batman:LUT_C3</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C3" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>1794ce79-1350-5854-8a1b-2ced7239e390</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n_50V</value>
+      <footprint>Batman:LUT_C4</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C4" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>0fe9e59c-572e-51ec-82dc-faeec17694d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100n_50V</value>
+      <footprint>Batman:LUT_C5</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C5" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>e4716161-06b5-59c1-96f3-e1e8644b7fe5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n_16V</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C6" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>a3714fa7-9e99-5517-9836-caffecbbe457</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>1u_16V</value>
+      <footprint>Batman:LUT_C7</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C7" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>8ce56553-60b9-5de1-9b26-8d22c7c23869</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>1u_16V</value>
+      <footprint>Batman:LUT_C8</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C8" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>cd1ccf8e-cdb9-50e3-9ac2-4294eb5087aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1u_16V</value>
+      <footprint>Batman:LUT_C9</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C9" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>08d99d50-e1e6-559e-a880-20bec59724ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100n_16V</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C10" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>329c03b0-0150-5c9a-8e29-bb2fdf91e46e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>ADS1115_0x48_EXTERNAL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>4fda5f9a-2e19-5708-a3d6-48a40a9b16f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>ACS1_3WIRE</value>
+      <footprint>Batman:LUT_J3</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J3" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>9cf90de3-7e54-57d8-85e1-13d52f4a3901</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>ACS2_3WIRE</value>
+      <footprint>Batman:LUT_J4</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J4" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>0f829669-a8d9-5b08-8b4f-646a34c06494</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>ACS3_3WIRE</value>
+      <footprint>Batman:LUT_J5</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J5" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>311974bb-c38a-5d5e-b4c2-0a2bffcbab70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>ADS1115_0x49_EXTERNAL</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J13" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>e13c8218-9c1b-54f1-bd3a-caa7fa5160bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J25">
+      <value>LINK_GND_+3V3_SENS</value>
+      <footprint>Batman:LUT_J25</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J25</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J25" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>91fc8cb7-1d43-5761-a88d-870493842ec3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J32">
+      <value>LINK_I_B1_I_B2_U_B1_U_B2_GND</value>
+      <footprint>Batman:LUT_J32</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J32</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J32" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>11f1e02c-745c-52d3-b482-928c7d48853c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J33">
+      <value>LINK_I_LOAD_U_LOAD_GND</value>
+      <footprint>Batman:LUT_J33</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J33</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J33" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>5138e41c-2f3d-5bc2-98c6-3d470487d556</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k_1%</value>
+      <footprint>Batman:LUT_R1</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R1" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>834eb101-ef99-5913-9729-247be5be17dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k_1%</value>
+      <footprint>Batman:LUT_R2</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R2" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>40bffe2a-b225-52a7-a169-d88daf940b54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k_1%</value>
+      <footprint>Batman:LUT_R3</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R3" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>b569cca0-2af8-5d19-a41d-266ee0ca9038</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k_1%</value>
+      <footprint>Batman:LUT_R4</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R4" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>0edb1f11-5e5f-5f42-8028-6ca9a0ce888d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k_1%</value>
+      <footprint>Batman:LUT_R5</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R5" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>ce56afd2-6a73-53a7-bef6-1a0d9ed9a7b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k_1%</value>
+      <footprint>Batman:LUT_R6</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R6" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>7f589938-4f0e-5e87-8d0e-53f8186b9f45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Batman:LUT_R7</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R7" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>d51e7748-5b6b-5253-8b02-be2bb96290c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Batman:LUT_R8</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R8" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>896b9920-ebe8-5989-a50b-c127570b9bc3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Batman:LUT_R9</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R9" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>9c15011a-3597-5c45-abf1-49f927c8b37a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X5">
+      <value>U_LOAD_SENSE</value>
+      <footprint>Batman:LUT_X5</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X5" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>95871d17-e35b-5557-8e6f-4b6239687961</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X8">
+      <value>BAT_SENSE_FROM_D</value>
+      <footprint>Batman:LUT_X8</footprint>
+      <fields>
+        <field name="Board">B</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X8" description=""/>
+      <property name="Board" value="B"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="sense"/>
+      <property name="Sheetfile" value="sense.kicad_sch"/>
+      <sheetpath names="/sense/" tstamps="/e07a0a30-a9a1-55a5-9190-237a901d4f5f/"/>
+      <tstamps>0519fec9-0923-55cc-88ba-d78500ee2d93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>DevKitC_38_socket_mMCU</value>
+      <footprint>Batman:LUT_J1</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J1" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>38f082fc-6b18-5f5f-96bb-c55bd186dd83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>SW1_GND_ON</value>
+      <footprint>Batman:LUT_J6</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J6" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>e5dbce78-8c0e-501a-8cab-5f3fd026c847</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>SW2_GND_ON</value>
+      <footprint>Batman:LUT_J7</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J7" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>37209686-4484-5a7e-8ccd-30069013561e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>DPS_UART</value>
+      <footprint>Batman:LUT_J9</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J9" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>f8b8737f-7051-5de9-801b-584ee95de5d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>OLED_I2C</value>
+      <footprint>Batman:LUT_J10</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J10" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>0e9bdbfb-0401-5325-8b3e-76dd49e04e7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>BUTTON</value>
+      <footprint>Batman:LUT_J11</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J11" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>9760061b-3734-5b10-901a-49edb9776025</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>SPI</value>
+      <footprint>Batman:LUT_J12</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J12" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>9594ed21-9fc1-5c67-b0d7-a5717692dd3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J20">
+      <value>LINK_+3V3_GND_SCL_SDA</value>
+      <footprint>Batman:LUT_J20</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J20" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>0ecb548a-8130-5f29-ba73-c3e45c94039c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J21">
+      <value>LINK_+3V3_GND_SCL_SDA</value>
+      <footprint>Batman:LUT_J21</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J21</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J21" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>07c48f7f-472c-5f69-b681-10810f5430a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J22">
+      <value>LINK_+3V3_GND_SENS_PWR</value>
+      <footprint>Batman:LUT_J22</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J22</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J22" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>111045a7-23c8-5565-b687-75d23e935f48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J26">
+      <value>LINK_+5V_GND</value>
+      <footprint>Batman:LUT_J26</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J26</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J26" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>98941cf9-d2ca-50d1-8379-ee03bb350e53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J28">
+      <value>LINK_RELAY_IN1_RELAY_IN2_GND</value>
+      <footprint>Batman:LUT_J28</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J28</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J28" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>a50ba506-9b78-5ae4-b3b4-009d29245f20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="mOLED1">
+      <value>SSD1306_0x3C</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias">mOLED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="mOLED1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value="mOLED"/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>0960d9a1-ed91-54c8-acc5-5e1d7fe7a088</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547_CBE</value>
+      <footprint>Batman:LUT_Q1</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_Q1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="Q1" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>8532a603-5779-5888-b5c4-cd495d3e955c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547_CBE</value>
+      <footprint>Batman:LUT_Q2</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_Q2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="Q2" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>87243b55-181b-5f2f-a634-eb2415a1e39e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Batman:LUT_R12</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R12" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>23fda838-1824-5c8a-b557-7e91e1ba951f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Batman:LUT_R13</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R13" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>a6d8f6c4-9ec7-5a10-86b3-09857bc6dedf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Batman:LUT_R14</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R14" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>a85dea0c-7f85-5534-bcee-2047c9a6daa2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Batman:LUT_R15</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R15</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R15" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>f3e223fc-8ffc-5c25-91f6-df13b9a6cfd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <footprint>Batman:LUT_R16</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R16</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R16" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>3a5426a2-9703-542c-8ed5-570c2cf4fe0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Batman:LUT_R17</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R17" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>f4bddcf8-f7d6-5f63-b3b8-44be4aeb421b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Batman:LUT_R18</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R18</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R18" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>7014eb0a-9bb8-5de4-ae7b-180252a16c88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>PANEL_BUTTON_NO</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="SW1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>10cbd92b-f33c-573f-afc7-3e58d9c4b43c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="T1">
+      <value>DS18B20_PROBE</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="T1" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>9e703e38-3e3f-553d-a30b-bcf5f79bfcc3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="T2">
+      <value>DS18B20_PROBE</value>
+      <fields>
+        <field name="Board">EXTERNAL</field>
+        <field name="Alias"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="T2" description=""/>
+      <property name="Board" value="EXTERNAL"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>acd6fab9-c443-5fce-8957-b7296c095cb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X4">
+      <value>DS18B20</value>
+      <footprint>Batman:LUT_X4</footprint>
+      <fields>
+        <field name="Board">A</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X4" description=""/>
+      <property name="Board" value="A"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="logic"/>
+      <property name="Sheetfile" value="logic.kicad_sch"/>
+      <sheetpath names="/logic/" tstamps="/b2c7b3f9-e393-5cfe-ad24-5923465a3d11/"/>
+      <tstamps>a1d30da9-1595-5c03-b570-a74fa6e296c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100n_16V</value>
+      <footprint>Batman:LUT_C11</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C11" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>1e93891c-a861-535e-909d-f1057e205aee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n_16V</value>
+      <footprint>Batman:LUT_C12</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C12" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>4d4e9431-d53c-505e-9066-5ba5aa68f2a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J23">
+      <value>LINK_+3V3_GND_SENS_PWR</value>
+      <footprint>Batman:LUT_J23</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J23" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>3f9183a5-3520-5c02-a36e-d0231635e0ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J24">
+      <value>LINK_GND_+3V3_SENS</value>
+      <footprint>Batman:LUT_J24</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J24</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J24" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>d9f6253a-cefe-5743-8091-73a0f80136ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J30">
+      <value>LINK_+3V3_GND</value>
+      <footprint>Batman:LUT_J30</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J30</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J30" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>a73055fc-0cbe-5c4d-b857-914eafb884eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>BC557_CBE</value>
+      <footprint>Batman:LUT_Q3</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_Q3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="Q3" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>3a701130-ad84-54e5-83fd-e6da2779923c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Batman:LUT_R10</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R10" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>559854ac-6463-521f-bd3c-34aa0979d1bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Batman:LUT_R11</footprint>
+      <fields>
+        <field name="Board">C</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_R11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="R11" description=""/>
+      <property name="Board" value="C"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply3"/>
+      <property name="Sheetfile" value="supply3.kicad_sch"/>
+      <sheetpath names="/supply3/" tstamps="/d9276852-ca9b-50ea-8335-7b633fcbf226/"/>
+      <tstamps>0c6bfae4-8617-51e1-880b-14a72f1b732a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100n_16V</value>
+      <footprint>Batman:LUT_C13</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_C13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="C13" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>b24015cf-fdae-57b0-b81f-0be012098f4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>RELAY</value>
+      <footprint>Batman:LUT_J8</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J8" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>eef69eca-db1d-5217-89b4-1d934606b134</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J27">
+      <value>LINK_+5V_GND</value>
+      <footprint>Batman:LUT_J27</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J27</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J27" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>02fbac59-fada-5d3e-8791-898a53d18fa9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J29">
+      <value>LINK_RELAY_IN1_RELAY_IN2_GND</value>
+      <footprint>Batman:LUT_J29</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J29</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J29" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>e0ddd7d6-2847-5512-954a-490092f98222</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J31">
+      <value>LINK_+5V_GND</value>
+      <footprint>Batman:LUT_J31</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_J31</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="J31" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>86fb8d4d-825b-56fa-ac7e-62e4743fbda8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="NT1">
+      <value>COPPER_STAR_AT_X3</value>
+      <footprint>Batman:LUT_NT1</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_NT1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="NT1" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>1faa3ba5-0efd-5abd-ab89-767bbc03f2f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VD1">
+      <value>1N5819</value>
+      <footprint>Batman:LUT_VD1</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_VD1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="VD1" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>d505e808-66c5-58ab-8344-cfd760f0b07e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VD2">
+      <value>1N5819</value>
+      <footprint>Batman:LUT_VD2</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_VD2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="VD2" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>50c10140-cd18-5084-a632-0ba797e4cb17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>B1_B2_GND</value>
+      <footprint>Batman:LUT_X1</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X1" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>c229dd3c-af5d-534f-91a1-f6540143f6e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X2">
+      <value>VIN_DC_GND</value>
+      <footprint>Batman:LUT_X2</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X2" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>c8f3acfa-fbe9-5620-af86-32403d00dc61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X3">
+      <value>5V_GND</value>
+      <footprint>Batman:LUT_X3</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X3" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>f6cf3d9e-12d7-5e0c-9c43-7f305591960d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X6">
+      <value>BAT_SENSE_TO_B</value>
+      <footprint>Batman:LUT_X6</footprint>
+      <fields>
+        <field name="Board">D</field>
+        <field name="Alias"/>
+        <field name="Footprint">Batman:LUT_X6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Batman" part="X6" description=""/>
+      <property name="Board" value="D"/>
+      <property name="Alias" value=""/>
+      <property name="Sheetname" value="supply5"/>
+      <property name="Sheetfile" value="supply5.kicad_sch"/>
+      <sheetpath names="/supply5/" tstamps="/ecb533ce-1b4b-5b14-b387-d81440b00d78/"/>
+      <tstamps>ba4a193a-fe43-5daa-90b9-37664d007f63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Batman" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100u_50V_ALUMINIUM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">100n_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C11">
+      <fields>
+        <field name="Reference">C11</field>
+        <field name="Value">100n_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C12">
+      <fields>
+        <field name="Reference">C12</field>
+        <field name="Value">100n_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C13">
+      <fields>
+        <field name="Reference">C13</field>
+        <field name="Value">100n_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n_50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n_50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100n_50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">100n_50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">100n_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">1u_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">1u_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">1u_16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">1.5KE33A_DNP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">ATO_15A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="F2">
+      <fields>
+        <field name="Reference">F2</field>
+        <field name="Value">ATO_15A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="Fchg1">
+      <fields>
+        <field name="Reference">Fchg1</field>
+        <field name="Value">ATO_15A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="Fout1">
+      <fields>
+        <field name="Reference">Fout1</field>
+        <field name="Value">ATO_15A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">DevKitC_38_socket_mMCU</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="EN" type="bidirectional"/>
+        <pin num="3" name="GPIO36" type="input"/>
+        <pin num="4" name="GPIO39" type="input"/>
+        <pin num="5" name="GPIO34" type="input"/>
+        <pin num="6" name="GPIO35" type="input"/>
+        <pin num="7" name="GPIO32" type="bidirectional"/>
+        <pin num="8" name="GPIO33" type="bidirectional"/>
+        <pin num="9" name="GPIO25" type="bidirectional"/>
+        <pin num="10" name="GPIO26" type="bidirectional"/>
+        <pin num="11" name="GPIO27" type="bidirectional"/>
+        <pin num="12" name="GPIO14" type="bidirectional"/>
+        <pin num="13" name="GPIO12" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO13" type="bidirectional"/>
+        <pin num="16" name="GPIO9" type="bidirectional"/>
+        <pin num="17" name="GPIO10" type="bidirectional"/>
+        <pin num="18" name="GPIO11" type="bidirectional"/>
+        <pin num="19" name="VIN" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="GPIO23" type="bidirectional"/>
+        <pin num="22" name="GPIO22" type="bidirectional"/>
+        <pin num="23" name="GPIO1" type="bidirectional"/>
+        <pin num="24" name="GPIO3" type="bidirectional"/>
+        <pin num="25" name="GPIO21" type="bidirectional"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GPIO19" type="bidirectional"/>
+        <pin num="28" name="GPIO18" type="bidirectional"/>
+        <pin num="29" name="GPIO5" type="bidirectional"/>
+        <pin num="30" name="GPIO17" type="bidirectional"/>
+        <pin num="31" name="GPIO16" type="bidirectional"/>
+        <pin num="32" name="GPIO4" type="bidirectional"/>
+        <pin num="33" name="GPIO0" type="bidirectional"/>
+        <pin num="34" name="GPIO2" type="bidirectional"/>
+        <pin num="35" name="GPIO15" type="bidirectional"/>
+        <pin num="36" name="GPIO8" type="bidirectional"/>
+        <pin num="37" name="GPIO7" type="bidirectional"/>
+        <pin num="38" name="GPIO6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J10">
+      <fields>
+        <field name="Reference">J10</field>
+        <field name="Value">OLED_I2C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="3" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J11">
+      <fields>
+        <field name="Reference">J11</field>
+        <field name="Value">BUTTON</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J12">
+      <fields>
+        <field name="Reference">J12</field>
+        <field name="Value">SPI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="5" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="3" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J13">
+      <fields>
+        <field name="Reference">J13</field>
+        <field name="Value">ADS1115_0x49_EXTERNAL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="ADDR" type="input"/>
+        <pin num="6" name="ALRT" type="open_collector"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="A1" type="input"/>
+        <pin num="9" name="A2" type="input"/>
+        <pin num="10" name="A3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">ADS1115_0x48_EXTERNAL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="ADDR" type="input"/>
+        <pin num="6" name="ALRT" type="open_collector"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="A1" type="input"/>
+        <pin num="9" name="A2" type="input"/>
+        <pin num="10" name="A3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J20">
+      <fields>
+        <field name="Reference">J20</field>
+        <field name="Value">LINK_+3V3_GND_SCL_SDA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SCL" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J21">
+      <fields>
+        <field name="Reference">J21</field>
+        <field name="Value">LINK_+3V3_GND_SCL_SDA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SCL" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J22">
+      <fields>
+        <field name="Reference">J22</field>
+        <field name="Value">LINK_+3V3_GND_SENS_PWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SENS_PWR" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J23">
+      <fields>
+        <field name="Reference">J23</field>
+        <field name="Value">LINK_+3V3_GND_SENS_PWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SENS_PWR" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J24">
+      <fields>
+        <field name="Reference">J24</field>
+        <field name="Value">LINK_GND_+3V3_SENS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="+3V3_SENS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J25">
+      <fields>
+        <field name="Reference">J25</field>
+        <field name="Value">LINK_GND_+3V3_SENS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="+3V3_SENS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J26">
+      <fields>
+        <field name="Reference">J26</field>
+        <field name="Value">LINK_+5V_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J27">
+      <fields>
+        <field name="Reference">J27</field>
+        <field name="Value">LINK_+5V_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J28">
+      <fields>
+        <field name="Reference">J28</field>
+        <field name="Value">LINK_RELAY_IN1_RELAY_IN2_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RELAY_IN1" type="passive"/>
+        <pin num="2" name="RELAY_IN2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J29">
+      <fields>
+        <field name="Reference">J29</field>
+        <field name="Value">LINK_RELAY_IN1_RELAY_IN2_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RELAY_IN1" type="passive"/>
+        <pin num="2" name="RELAY_IN2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">ACS1_3WIRE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J30">
+      <fields>
+        <field name="Reference">J30</field>
+        <field name="Value">LINK_+3V3_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J31">
+      <fields>
+        <field name="Reference">J31</field>
+        <field name="Value">LINK_+5V_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J32">
+      <fields>
+        <field name="Reference">J32</field>
+        <field name="Value">LINK_I_B1_I_B2_U_B1_U_B2_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="I_B1" type="passive"/>
+        <pin num="2" name="I_B2" type="passive"/>
+        <pin num="3" name="U_B1" type="passive"/>
+        <pin num="4" name="U_B2" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J33">
+      <fields>
+        <field name="Reference">J33</field>
+        <field name="Value">LINK_I_LOAD_U_LOAD_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="I_LOAD" type="passive"/>
+        <pin num="2" name="U_LOAD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">ACS2_3WIRE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">ACS3_3WIRE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J6">
+      <fields>
+        <field name="Reference">J6</field>
+        <field name="Value">SW1_GND_ON</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J7">
+      <fields>
+        <field name="Reference">J7</field>
+        <field name="Value">SW2_GND_ON</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J8">
+      <fields>
+        <field name="Reference">J8</field>
+        <field name="Value">RELAY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="J9">
+      <fields>
+        <field name="Reference">J9</field>
+        <field name="Value">DPS_UART</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="3" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="NT1">
+      <fields>
+        <field name="Reference">NT1</field>
+        <field name="Value">COPPER_STAR_AT_X3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">BC547_CBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">BC547_CBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">BC557_CBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">100k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">4.7k_1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">PANEL_BUTTON_NO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="T1">
+      <fields>
+        <field name="Reference">T1</field>
+        <field name="Value">DS18B20_PROBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DATA" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="T2">
+      <fields>
+        <field name="Reference">T2</field>
+        <field name="Value">DS18B20_PROBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DATA" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="VD1">
+      <fields>
+        <field name="Reference">VD1</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="VD2">
+      <fields>
+        <field name="Reference">VD2</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X1">
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">B1_B2_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X2">
+      <fields>
+        <field name="Reference">X2</field>
+        <field name="Value">VIN_DC_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X3">
+      <fields>
+        <field name="Reference">X3</field>
+        <field name="Value">5V_GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X4">
+      <fields>
+        <field name="Reference">X4</field>
+        <field name="Value">DS18B20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X5">
+      <fields>
+        <field name="Reference">X5</field>
+        <field name="Value">U_LOAD_SENSE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X6">
+      <fields>
+        <field name="Reference">X6</field>
+        <field name="Value">BAT_SENSE_TO_B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B1" type="passive"/>
+        <pin num="2" name="B2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="X8">
+      <fields>
+        <field name="Reference">X8</field>
+        <field name="Value">BAT_SENSE_FROM_D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B1" type="passive"/>
+        <pin num="2" name="B2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XB1">
+      <fields>
+        <field name="Reference">XB1</field>
+        <field name="Value">BAT1_PANEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XB2">
+      <fields>
+        <field name="Reference">XB2</field>
+        <field name="Value">BAT2_PANEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XGND1">
+      <fields>
+        <field name="Reference">XGND1</field>
+        <field name="Value">GND_P24_P25_P26_P27_P28</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XLOAD1">
+      <fields>
+        <field name="Reference">XLOAD1</field>
+        <field name="Value">LOAD_PANEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XLP1">
+      <fields>
+        <field name="Reference">XLP1</field>
+        <field name="Value">LOAD_P06_P12_P13</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="XPSU1">
+      <fields>
+        <field name="Reference">XPSU1</field>
+        <field name="Value">PSU_33V_10A_PANEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mACS1">
+      <fields>
+        <field name="Reference">mACS1</field>
+        <field name="Value">ACS711EX_15.5A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IP-" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mACS2">
+      <fields>
+        <field name="Reference">mACS2</field>
+        <field name="Value">ACS711EX_15.5A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IP-" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mACS3">
+      <fields>
+        <field name="Reference">mACS3</field>
+        <field name="Value">ACS711EX_15.5A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IP-" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mDC5">
+      <fields>
+        <field name="Reference">mDC5</field>
+        <field name="Value">LM2596_SET_5.0V_FIRST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="power_in"/>
+        <pin num="2" name="IN-" type="power_in"/>
+        <pin num="3" name="OUT+" type="power_out"/>
+        <pin num="4" name="OUT-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mDIO1">
+      <fields>
+        <field name="Reference">mDIO1</field>
+        <field name="Value">XL74610</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mDIO2">
+      <fields>
+        <field name="Reference">mDIO2</field>
+        <field name="Value">XL74610</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mDIO3">
+      <fields>
+        <field name="Reference">mDIO3</field>
+        <field name="Value">XL74610</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mDPS1">
+      <fields>
+        <field name="Reference">mDPS1</field>
+        <field name="Value">DPS5015_9600_8N1_ADDR1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="power_in"/>
+        <pin num="2" name="IN-" type="power_in"/>
+        <pin num="3" name="OUT+" type="power_out"/>
+        <pin num="4" name="OUT-" type="power_in"/>
+        <pin num="5" name="V_UNUSED" type="passive"/>
+        <pin num="6" name="R_RXI" type="input"/>
+        <pin num="7" name="T_TXO" type="output"/>
+        <pin num="8" name="G_UART" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mOLED1">
+      <fields>
+        <field name="Reference">mOLED1</field>
+        <field name="Value">SSD1306_0x3C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mREL2">
+      <fields>
+        <field name="Reference">mREL2</field>
+        <field name="Value">FL_3FF_5V_10A_REMOVE_JUMPER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COM1" type="passive"/>
+        <pin num="2" name="NO1" type="passive"/>
+        <pin num="3" name="NC1" type="passive"/>
+        <pin num="4" name="COM2" type="passive"/>
+        <pin num="5" name="NO2" type="passive"/>
+        <pin num="6" name="NC2" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="IN1" type="passive"/>
+        <pin num="9" name="IN2" type="passive"/>
+        <pin num="10" name="VCC" type="passive"/>
+        <pin num="11" name="JD_VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mSW1">
+      <fields>
+        <field name="Reference">mSW1</field>
+        <field name="Value">Pololu_2815_HP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="ON" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Batman" part="mSW2">
+      <fields>
+        <field name="Reference">mSW2</field>
+        <field name="Value">Pololu_2815_HP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="ON" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Batman">
+      <uri>${KIPRJMOD}/Batman.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="3V3_1" pintype="power_out"/>
+      <node ref="J10" pin="1" pinfunction="2_1" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="1_6" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="J13" pin="5" pinfunction="ADDR_5" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="J20" pin="1" pinfunction="+3V3_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="+3V3_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="+3V3_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="+3V3_1" pintype="passive"/>
+      <node ref="J30" pin="1" pinfunction="+3V3_1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="VCC_1" pintype="power_in"/>
+      <node ref="T2" pin="1" pinfunction="VCC_1" pintype="power_in"/>
+      <node ref="X4" pin="2" pinfunction="1_2" pintype="passive"/>
+      <node ref="mOLED1" pin="2" pinfunction="VDD_2" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3_SENS" class="Default">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="+3V3_SENS_2" pintype="passive"/>
+      <node ref="J25" pin="2" pinfunction="+3V3_SENS_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="VCC_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="VCC_3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C_1" pintype="passive"/>
+      <node ref="mACS1" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+      <node ref="mACS2" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+      <node ref="mACS3" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V" class="Default">
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="VIN_19" pintype="power_in"/>
+      <node ref="J26" pin="1" pinfunction="+5V_1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="+5V_1" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="+5V_1" pintype="passive"/>
+      <node ref="NT1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mDC5" pin="3" pinfunction="OUT+_3" pintype="power_out"/>
+    </net>
+    <net code="4" name="+5V_RELAY_COIL" class="Default">
+      <node ref="J8" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="NT1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="mREL2" pin="11" pinfunction="JD_VCC_11" pintype="passive"/>
+    </net>
+    <net code="5" name="+5V_RELAY_VCC" class="Default">
+      <node ref="J8" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="NT1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mREL2" pin="10" pinfunction="VCC_10" pintype="passive"/>
+    </net>
+    <net code="6" name="B1" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="VD1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X6" pin="1" pinfunction="B1_1" pintype="passive"/>
+      <node ref="X8" pin="1" pinfunction="B1_1" pintype="passive"/>
+      <node ref="mACS1" pin="2" pinfunction="IP+_2" pintype="passive"/>
+      <node ref="mREL2" pin="2" pinfunction="NO1_2" pintype="passive"/>
+      <node ref="mSW1" pin="1" pinfunction="VIN_1" pintype="passive"/>
+    </net>
+    <net code="7" name="B2" class="Default">
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="VD2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X6" pin="2" pinfunction="B2_2" pintype="passive"/>
+      <node ref="X8" pin="2" pinfunction="B2_2" pintype="passive"/>
+      <node ref="mACS2" pin="2" pinfunction="IP+_2" pintype="passive"/>
+      <node ref="mREL2" pin="5" pinfunction="NO2_5" pintype="passive"/>
+      <node ref="mSW2" pin="1" pinfunction="VIN_1" pintype="passive"/>
+    </net>
+    <net code="8" name="BASE1" class="Default">
+      <node ref="Q1" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="BASE2" class="Default">
+      <node ref="Q2" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="10" name="BASE3" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="11" name="BTN" class="Default">
+      <node ref="J1" pin="7" pinfunction="GPIO32_7" pintype="bidirectional"/>
+      <node ref="J11" pin="2" pinfunction="1_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="CHG" class="Default">
+      <node ref="mDIO3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="mREL2" pin="1" pinfunction="COM1_1" pintype="passive"/>
+      <node ref="mREL2" pin="4" pinfunction="COM2_4" pintype="passive"/>
+    </net>
+    <net code="13" name="CS" class="Default">
+      <node ref="J1" pin="29" pinfunction="GPIO5_29" pintype="bidirectional"/>
+      <node ref="J12" pin="5" pinfunction="6_5" pintype="passive"/>
+    </net>
+    <net code="14" name="DPS_RX" class="Default">
+      <node ref="J1" pin="31" pinfunction="GPIO16_31" pintype="bidirectional"/>
+      <node ref="J9" pin="2" pinfunction="3_2" pintype="passive"/>
+      <node ref="mDPS1" pin="7" pinfunction="T_TXO_7" pintype="output"/>
+    </net>
+    <net code="15" name="DPS_TX" class="Default">
+      <node ref="J1" pin="30" pinfunction="GPIO17_30" pintype="bidirectional"/>
+      <node ref="J9" pin="1" pinfunction="2_1" pintype="passive"/>
+      <node ref="mDPS1" pin="6" pinfunction="R_RXI_6" pintype="input"/>
+    </net>
+    <net code="16" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="GND_14" pintype="power_in"/>
+      <node ref="J1" pin="20" pinfunction="GND_20" pintype="power_in"/>
+      <node ref="J1" pin="26" pinfunction="GND_26" pintype="power_in"/>
+      <node ref="J10" pin="4" pinfunction="1_4" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="2_1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J13" pin="10" pinfunction="A3_10" pintype="input"/>
+      <node ref="J13" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="J13" pin="9" pinfunction="A2_9" pintype="input"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="ADDR_5" pintype="input"/>
+      <node ref="J20" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J27" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J28" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J29" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J30" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J31" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J32" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J33" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="1_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="1_3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="T2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="X1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="X6" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="X8" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="XB1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="XB2" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="XGND1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="XGND1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="XGND1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="XGND1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="XGND1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="XLOAD1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="XPSU1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="mACS1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="mACS2" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="mACS3" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="mDC5" pin="2" pinfunction="IN-_2" pintype="power_in"/>
+      <node ref="mDC5" pin="4" pinfunction="OUT-_4" pintype="power_in"/>
+      <node ref="mDPS1" pin="2" pinfunction="IN-_2" pintype="power_in"/>
+      <node ref="mDPS1" pin="4" pinfunction="OUT-_4" pintype="power_in"/>
+      <node ref="mDPS1" pin="8" pinfunction="G_UART_8" pintype="power_in"/>
+      <node ref="mOLED1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="mREL2" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="mSW1" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="mSW2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+    </net>
+    <net code="17" name="I_B1" class="Default">
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="A0_7" pintype="input"/>
+      <node ref="J32" pin="1" pinfunction="I_B1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="I_B2" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="A1_8" pintype="input"/>
+      <node ref="J32" pin="2" pinfunction="I_B2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="19" name="I_LOAD" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J13" pin="7" pinfunction="A0_7" pintype="input"/>
+      <node ref="J33" pin="1" pinfunction="I_LOAD_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="20" name="I_RAW1" class="Default">
+      <node ref="J3" pin="1" pinfunction="VOUT_1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mACS1" pin="5" pinfunction="VOUT_5" pintype="output"/>
+    </net>
+    <net code="21" name="I_RAW2" class="Default">
+      <node ref="J4" pin="1" pinfunction="VOUT_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mACS2" pin="5" pinfunction="VOUT_5" pintype="output"/>
+    </net>
+    <net code="22" name="I_RAW3" class="Default">
+      <node ref="J5" pin="2" pinfunction="VOUT_2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mACS3" pin="5" pinfunction="VOUT_5" pintype="output"/>
+    </net>
+    <net code="23" name="K1" class="Default">
+      <node ref="J1" pin="11" pinfunction="GPIO27_11" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="24" name="K2" class="Default">
+      <node ref="J1" pin="15" pinfunction="GPIO13_15" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="LOAD+" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="XLP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="XLP1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="XLP1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="mACS3" pin="1" pinfunction="IP-_1" pintype="passive"/>
+      <node ref="mDIO1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="mDIO2" pin="1" pinfunction="K_1" pintype="passive"/>
+    </net>
+    <net code="26" name="LOAD_OUT+" class="Default">
+      <node ref="Fout1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="XLOAD1" pin="1" pinfunction="+_1" pintype="passive"/>
+    </net>
+    <net code="27" name="MISO" class="Default">
+      <node ref="J1" pin="27" pinfunction="GPIO19_27" pintype="bidirectional"/>
+      <node ref="J12" pin="3" pinfunction="4_3" pintype="passive"/>
+    </net>
+    <net code="28" name="MOSI" class="Default">
+      <node ref="J1" pin="21" pinfunction="GPIO23_21" pintype="bidirectional"/>
+      <node ref="J12" pin="1" pinfunction="5_1" pintype="passive"/>
+    </net>
+    <net code="29" name="OW" class="Default">
+      <node ref="J1" pin="32" pinfunction="GPIO4_32" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="DATA_2" pintype="bidirectional"/>
+      <node ref="T2" pin="2" pinfunction="DATA_2" pintype="bidirectional"/>
+      <node ref="X4" pin="1" pinfunction="2_1" pintype="passive"/>
+    </net>
+    <net code="30" name="P01" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="XB1" pin="1" pinfunction="+_1" pintype="passive"/>
+    </net>
+    <net code="31" name="P02" class="Default">
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mACS1" pin="1" pinfunction="IP-_1" pintype="passive"/>
+    </net>
+    <net code="32" name="P05" class="Default">
+      <node ref="mDIO1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="mSW1" pin="2" pinfunction="VOUT_2" pintype="passive"/>
+    </net>
+    <net code="33" name="P07" class="Default">
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="XB2" pin="1" pinfunction="+_1" pintype="passive"/>
+    </net>
+    <net code="34" name="P08" class="Default">
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mACS2" pin="1" pinfunction="IP-_1" pintype="passive"/>
+    </net>
+    <net code="35" name="P11" class="Default">
+      <node ref="mDIO2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="mSW2" pin="2" pinfunction="VOUT_2" pintype="passive"/>
+    </net>
+    <net code="36" name="P14" class="Default">
+      <node ref="Fout1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mACS3" pin="2" pinfunction="IP+_2" pintype="passive"/>
+    </net>
+    <net code="37" name="P16" class="Default">
+      <node ref="Fchg1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mDPS1" pin="3" pinfunction="OUT+_3" pintype="power_out"/>
+    </net>
+    <net code="38" name="P17" class="Default">
+      <node ref="Fchg1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mDIO3" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="39" name="P22" class="Default">
+      <node ref="XPSU1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="mDPS1" pin="1" pinfunction="IN+_1" pintype="power_in"/>
+    </net>
+    <net code="40" name="RELAY_IN1" class="Default">
+      <node ref="J28" pin="1" pinfunction="RELAY_IN1_1" pintype="passive"/>
+      <node ref="J29" pin="1" pinfunction="RELAY_IN1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="2_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C_1" pintype="passive"/>
+      <node ref="mREL2" pin="8" pinfunction="IN1_8" pintype="passive"/>
+    </net>
+    <net code="41" name="RELAY_IN2" class="Default">
+      <node ref="J28" pin="2" pinfunction="RELAY_IN2_2" pintype="passive"/>
+      <node ref="J29" pin="2" pinfunction="RELAY_IN2_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C_1" pintype="passive"/>
+      <node ref="mREL2" pin="9" pinfunction="IN2_9" pintype="passive"/>
+    </net>
+    <net code="42" name="SCK" class="Default">
+      <node ref="J1" pin="28" pinfunction="GPIO18_28" pintype="bidirectional"/>
+      <node ref="J12" pin="4" pinfunction="3_4" pintype="passive"/>
+    </net>
+    <net code="43" name="SCL" class="Default">
+      <node ref="J1" pin="22" pinfunction="GPIO22_22" pintype="bidirectional"/>
+      <node ref="J10" pin="2" pinfunction="3_2" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="SCL_3" pintype="input"/>
+      <node ref="J2" pin="3" pinfunction="SCL_3" pintype="input"/>
+      <node ref="J20" pin="3" pinfunction="SCL_3" pintype="passive"/>
+      <node ref="J21" pin="3" pinfunction="SCL_3" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mOLED1" pin="3" pinfunction="SCK_3" pintype="input"/>
+    </net>
+    <net code="44" name="SDA" class="Default">
+      <node ref="J1" pin="25" pinfunction="GPIO21_25" pintype="bidirectional"/>
+      <node ref="J10" pin="3" pinfunction="4_3" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="SDA_4" pintype="bidirectional"/>
+      <node ref="J2" pin="4" pinfunction="SDA_4" pintype="bidirectional"/>
+      <node ref="J20" pin="4" pinfunction="SDA_4" pintype="passive"/>
+      <node ref="J21" pin="4" pinfunction="SDA_4" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mOLED1" pin="4" pinfunction="SDA_4" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="SENS_PWR" class="Default">
+      <node ref="J1" pin="8" pinfunction="GPIO33_8" pintype="bidirectional"/>
+      <node ref="J22" pin="3" pinfunction="SENS_PWR_3" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="SENS_PWR_3" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="46" name="SW1_ON" class="Default">
+      <node ref="J1" pin="9" pinfunction="GPIO25_9" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mSW1" pin="4" pinfunction="ON_4" pintype="input"/>
+    </net>
+    <net code="47" name="SW2_ON" class="Default">
+      <node ref="J1" pin="10" pinfunction="GPIO26_10" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="mSW2" pin="4" pinfunction="ON_4" pintype="input"/>
+    </net>
+    <net code="48" name="U_B1" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="A2_9" pintype="input"/>
+      <node ref="J32" pin="3" pinfunction="U_B1_3" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="49" name="U_B2" class="Default">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="A3_10" pintype="input"/>
+      <node ref="J32" pin="4" pinfunction="U_B2_4" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="50" name="U_LOAD" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J13" pin="8" pinfunction="A1_8" pintype="input"/>
+      <node ref="J33" pin="2" pinfunction="U_LOAD_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="51" name="VIN_DC" class="Default">
+      <node ref="VD1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="VD2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="mDC5" pin="1" pinfunction="IN+_1" pintype="power_in"/>
+    </net>
+    <net code="52" name="unconnected-(J1-EN-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="EN_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J1-GPIO0-Pad33)" class="Default">
+      <node ref="J1" pin="33" pinfunction="GPIO0_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-GPIO1-Pad23)" class="Default">
+      <node ref="J1" pin="23" pinfunction="GPIO1_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-GPIO2-Pad34)" class="Default">
+      <node ref="J1" pin="34" pinfunction="GPIO2_34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J1-GPIO3-Pad24)" class="Default">
+      <node ref="J1" pin="24" pinfunction="GPIO3_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J1-GPIO6-Pad38)" class="Default">
+      <node ref="J1" pin="38" pinfunction="GPIO6_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J1-GPIO7-Pad37)" class="Default">
+      <node ref="J1" pin="37" pinfunction="GPIO7_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J1-GPIO8-Pad36)" class="Default">
+      <node ref="J1" pin="36" pinfunction="GPIO8_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-GPIO9-Pad16)" class="Default">
+      <node ref="J1" pin="16" pinfunction="GPIO9_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J1-GPIO10-Pad17)" class="Default">
+      <node ref="J1" pin="17" pinfunction="GPIO10_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J1-GPIO11-Pad18)" class="Default">
+      <node ref="J1" pin="18" pinfunction="GPIO11_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J1-GPIO12-Pad13)" class="Default">
+      <node ref="J1" pin="13" pinfunction="GPIO12_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J1-GPIO14-Pad12)" class="Default">
+      <node ref="J1" pin="12" pinfunction="GPIO14_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J1-GPIO15-Pad35)" class="Default">
+      <node ref="J1" pin="35" pinfunction="GPIO15_35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J1-GPIO34-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="GPIO34_5" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J1-GPIO35-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="GPIO35_6" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J1-GPIO36-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="GPIO36_3" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J1-GPIO39-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="GPIO39_4" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-ALRT-Pad6)" class="Default">
+      <node ref="J2" pin="6" pinfunction="ALRT_6" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J13-ALRT-Pad6)" class="Default">
+      <node ref="J13" pin="6" pinfunction="ALRT_6" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(mDPS1-V_UNUSED-Pad5)" class="Default">
+      <node ref="mDPS1" pin="5" pinfunction="V_UNUSED_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(mREL2-NC1-Pad3)" class="Default">
+      <node ref="mREL2" pin="3" pinfunction="NC1_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(mREL2-NC2-Pad6)" class="Default">
+      <node ref="mREL2" pin="6" pinfunction="NC2_6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

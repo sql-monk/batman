@@ -1,0 +1,91 @@
+(footprint "LUT_R18"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "R18"
+		(at 0 -2.5 90)
+		(layer "F.SilkS")
+		(uuid "ba5c20c0-756c-4df2-bf9d-47db7aad4370")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "4.7k"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c7934ce-25d0-4c2f-8416-2efb580d5b47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc7137f4-7366-4a7a-bcae-f7a9d1685fd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36fc93d2-1ff7-4e6a-9d5e-294b73efebf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c9128d8-c371-400b-98e3-e0e9c97bc6fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d14bf01-7ae6-4535-98da-a8eaf6a1e569")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -1.9 0)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "d4e996a5-4eec-403c-9d5a-befed64ebd1c")
+	)
+	(pad "2" smd rect
+		(at 1.9 0)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "47ea46dd-49c8-4651-acea-55f60501d44b")
+	)
+	(embedded_fonts no)
+)

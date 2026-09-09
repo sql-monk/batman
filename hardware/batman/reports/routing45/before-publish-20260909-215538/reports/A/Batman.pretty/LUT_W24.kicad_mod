@@ -1,0 +1,79 @@
+(footprint "LUT_W24"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "W24"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "504b4d51-5232-4360-be38-713c7f703369")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "INSULATED_WIRE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6117b6d7-6928-4db9-bea5-033578dd49e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b2f91fe-0efb-4923-8871-ab632bd67481")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd50ea20-e7c0-461d-90fc-742ee31832fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 0)
+		(end 6.5 11.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "280c330f-5c47-4744-9b7b-6634fedc5f95")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "c3f47773-39e8-4e5e-9fa7-7cd4c44822d1")
+	)
+	(pad "1" thru_hole circle
+		(at 6.5 11.5)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "62239906-706e-42c5-8860-ffd3cc255b9d")
+	)
+	(embedded_fonts no)
+)

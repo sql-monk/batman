@@ -1,0 +1,115 @@
+(footprint "LUT_J7"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J7"
+		(at 0 -2.5 90)
+		(layer "F.SilkS")
+		(uuid "55803063-d5a2-41af-a5ed-4e653aca2cb9")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SW2_GND_ON"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d84f487c-b51f-4bc3-8a83-248458bdd567")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e01457e-c27d-43b2-ac97-e9e54228384e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a68ea3-8f1f-4777-9428-ac99bbbdd181")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "62d78103-0432-46cd-b999-78b3a5c98cce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da6d9801-2925-4440-8644-0eb18e0951fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "32340402-dd04-475e-b05b-021de543983c")
+	)
+	(fp_circle
+		(center 0 2.54)
+		(end 0 1.54)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eb6166fe-a8a4-4114-a71c-cae7ab3cd6b6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "54dec435-fbe3-4554-a843-397f70170455")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "4a1bfaa8-9b07-4313-8be9-dcd2745284f6")
+	)
+	(embedded_fonts no)
+)

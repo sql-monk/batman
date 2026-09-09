@@ -1,0 +1,1102 @@
+{
+  "summary": {
+    "created_scenes": [
+      "BATMAN - open",
+      "BATMAN - levels"
+    ],
+    "meshes_checked": 109,
+    "non_manifold": []
+  },
+  "parts": [
+    {
+      "name": "base",
+      "dimensions_mm": [
+        220.0,
+        220.0,
+        3.0
+      ],
+      "volume_cm3": 145.091,
+      "closed_manifold": true
+    },
+    {
+      "name": "corner post",
+      "dimensions_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "volume_cm3": 14.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "corner post.001",
+      "dimensions_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "volume_cm3": 14.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "corner post.002",
+      "dimensions_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "volume_cm3": 14.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "corner post.003",
+      "dimensions_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "volume_cm3": 14.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 logic frame grooved frame",
+      "dimensions_mm": [
+        211.0,
+        212.0,
+        8.4
+      ],
+      "volume_cm3": 40.418,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 logic frame removable retainer",
+      "dimensions_mm": [
+        211.0,
+        4.0,
+        8.4
+      ],
+      "volume_cm3": 6.779,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 power frame grooved frame",
+      "dimensions_mm": [
+        211.0,
+        212.0,
+        20.0
+      ],
+      "volume_cm3": 40.418,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 power frame removable retainer",
+      "dimensions_mm": [
+        211.0,
+        4.0,
+        8.4
+      ],
+      "volume_cm3": 6.779,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier A plate",
+      "dimensions_mm": [
+        92.0,
+        102.0,
+        2.0
+      ],
+      "volume_cm3": 18.696,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier A pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "A M3 spacer",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "A M3 spacer.001",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "A M3 spacer.002",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "A M3 spacer.003",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier B plate",
+      "dimensions_mm": [
+        92.0,
+        94.0,
+        2.0
+      ],
+      "volume_cm3": 17.224,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier B pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "B M3 spacer",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "B M3 spacer.001",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "B M3 spacer.002",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "B M3 spacer.003",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier C plate",
+      "dimensions_mm": [
+        92.0,
+        62.0,
+        2.0
+      ],
+      "volume_cm3": 11.336,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier C pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "C M3 spacer",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "C M3 spacer.001",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "C M3 spacer.002",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "C M3 spacer.003",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier D plate",
+      "dimensions_mm": [
+        92.0,
+        62.0,
+        2.0
+      ],
+      "volume_cm3": 11.336,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier D pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "D M3 spacer",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "D M3 spacer.001",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "D M3 spacer.002",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "D M3 spacer.003",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier ADS pair plate",
+      "dimensions_mm": [
+        92.0,
+        32.0,
+        2.0
+      ],
+      "volume_cm3": 5.888,
+      "closed_manifold": true
+    },
+    {
+      "name": "L1 carrier ADS pair pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x48 edge support",
+      "dimensions_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.42,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x48 edge support.001",
+      "dimensions_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.42,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x48 adjustable edge saddle",
+      "dimensions_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.48,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x48 adjustable edge saddle.001",
+      "dimensions_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.48,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x49 edge support",
+      "dimensions_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.42,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x49 edge support.001",
+      "dimensions_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.42,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x49 adjustable edge saddle",
+      "dimensions_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.48,
+      "closed_manifold": true
+    },
+    {
+      "name": "ADS 0x49 adjustable edge saddle.001",
+      "dimensions_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.48,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier DPS plate",
+      "dimensions_mm": [
+        92.0,
+        104.0,
+        2.0
+      ],
+      "volume_cm3": 19.064,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier DPS pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "DPS M3 spacer",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "DPS M3 spacer.001",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "DPS M3 spacer.002",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "DPS M3 spacer.003",
+      "dimensions_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.205,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier relay supply plate",
+      "dimensions_mm": [
+        92.0,
+        93.0,
+        2.0
+      ],
+      "volume_cm3": 17.112,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier relay supply pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support",
+      "dimensions_mm": [
+        50.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.75,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.001",
+      "dimensions_mm": [
+        50.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.75,
+      "closed_manifold": true
+    },
+    {
+      "name": "adjustable module edge saddle",
+      "dimensions_mm": [
+        54.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.81,
+      "closed_manifold": true
+    },
+    {
+      "name": "adjustable module edge saddle.001",
+      "dimensions_mm": [
+        54.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.81,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.002",
+      "dimensions_mm": [
+        44.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.66,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.003",
+      "dimensions_mm": [
+        44.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.66,
+      "closed_manifold": true
+    },
+    {
+      "name": "adjustable module edge saddle.002",
+      "dimensions_mm": [
+        48.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.72,
+      "closed_manifold": true
+    },
+    {
+      "name": "adjustable module edge saddle.003",
+      "dimensions_mm": [
+        48.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.72,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 1 plate",
+      "dimensions_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "volume_cm3": 10.672,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 1 pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.004",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.005",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.001",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.006",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.007",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.002",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.003",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.008",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.009",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.004",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.005",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 2 plate",
+      "dimensions_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "volume_cm3": 10.672,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 2 pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.010",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.011",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.006",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.007",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.012",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.013",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.008",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.009",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.014",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.015",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.010",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.011",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 3 plate",
+      "dimensions_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "volume_cm3": 10.672,
+      "closed_manifold": true
+    },
+    {
+      "name": "L2 carrier branch 3 pull lip",
+      "dimensions_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "volume_cm3": 0.504,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.016",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.017",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.012",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.013",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.018",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.019",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.014",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.015",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.020",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "module edge support.021",
+      "dimensions_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "volume_cm3": 0.12,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.016",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "provisional adjustable saddle.017",
+      "dimensions_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "volume_cm3": 0.345,
+      "closed_manifold": true
+    },
+    {
+      "name": "C1 C2 adjustable cradle",
+      "dimensions_mm": [
+        62.0,
+        32.0,
+        3.0
+      ],
+      "volume_cm3": 5.585,
+      "closed_manifold": true
+    },
+    {
+      "name": "capacitor strap guide",
+      "dimensions_mm": [
+        3.0,
+        26.0,
+        4.0
+      ],
+      "volume_cm3": 0.312,
+      "closed_manifold": true
+    },
+    {
+      "name": "capacitor strap guide.001",
+      "dimensions_mm": [
+        3.0,
+        26.0,
+        4.0
+      ],
+      "volume_cm3": 0.312,
+      "closed_manifold": true
+    },
+    {
+      "name": "wall left",
+      "dimensions_mm": [
+        3.0,
+        220.0,
+        210.0
+      ],
+      "volume_cm3": 130.489,
+      "closed_manifold": true
+    },
+    {
+      "name": "wall right",
+      "dimensions_mm": [
+        3.0,
+        220.0,
+        210.0
+      ],
+      "volume_cm3": 135.437,
+      "closed_manifold": true
+    },
+    {
+      "name": "panel back - interface blanks",
+      "dimensions_mm": [
+        214.0,
+        3.0,
+        210.0
+      ],
+      "volume_cm3": 134.657,
+      "closed_manifold": true
+    },
+    {
+      "name": "panel front",
+      "dimensions_mm": [
+        214.0,
+        3.0,
+        210.0
+      ],
+      "volume_cm3": 130.179,
+      "closed_manifold": true
+    },
+    {
+      "name": "lid ventilated",
+      "dimensions_mm": [
+        220.0,
+        220.0,
+        3.0
+      ],
+      "volume_cm3": 100.163,
+      "closed_manifold": true
+    }
+  ]
+}

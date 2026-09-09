@@ -1,0 +1,120 @@
+(footprint "LUT_NT1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "NT1"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "18afdb29-a84a-4956-a58b-ef047ba86bc3")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "COPPER_STAR_AT_X3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afed52c6-d2c8-4ba4-8640-881b56052885")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a089014e-b311-467c-80c4-d590eae9e8ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b902ffff-5e7b-4e96-832f-17b1ecc07025")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf7dad14-5c5b-4442-84f1-96d7f0283ae8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e4d7898-4bbc-46ae-b9a9-836e5cfaea0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1,2,3")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 0 3.5)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "936c898d-6ab4-4908-a606-7c5e10756ddd")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "49913f57-4328-4ea7-8084-875242209d64")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "daf2d646-cc99-4dbb-8d40-4a624a379ee1")
+	)
+	(pad "2" smd rect
+		(at 0 3.5)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "284745b0-0765-4935-b0eb-101f9eba0f72")
+	)
+	(pad "3" smd rect
+		(at 3.5 3.5)
+		(size 2 1.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "38c67550-2d87-42be-9a01-0ab9dcf9e582")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,43 @@
+2026-09-09 21:04:53.377 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-09 21:04:54.892 INFO   [1852B3\7637BF] Loading board file 'routing.dsn'...
+2026-09-09 21:04:54.940 INFO   [1852B3\7637BF] Job '1852B3\7637BF' started at 2026-09-09T18:04:54.940973300Z.
+2026-09-09 21:04:54.991 INFO   [1852B3\7637BF] Auto-routing stage started on board '17260b351c3007e57af98a69034a1e9d' for 56 unrouted items.
+2026-09-09 21:04:56.379 INFO   [1852B3\7637BF] Auto-routing pass #1 on board '17260b351c3007e57af98a69034a1e9d' was completed in 1.35 seconds with score 821.42 (10 unrouted and 0 violations), using 0.91 CPU seconds and the job allocated 2.27 GB of memory so far.
+2026-09-09 21:04:56.948 INFO   [1852B3\7637BF] Auto-routing pass #2 on board '1ea07988d469098768ff1c8208ccf58d' was completed in 0.55 seconds with score 803.57 (11 unrouted and 0 violations), using 0.91 CPU seconds and the job allocated 2.27 GB of memory so far.
+2026-09-09 21:04:57.656 INFO   [1852B3\7637BF] Auto-routing pass #3 on board '36d9948cd7488ada8e362083770343bb' was completed in 0.69 seconds with score 874.99 (7 unrouted and 0 violations), using 1.89 CPU seconds and the job allocated 6.49 GB of memory so far.
+2026-09-09 21:04:58.151 INFO   [1852B3\7637BF] Auto-routing pass #4 on board 'ef37dbbfd3a14c7d175a3257ed19ea33' was completed in 0.48 seconds with score 839.28 (9 unrouted and 0 violations), using 2.86 CPU seconds and the job allocated 11.25 GB of memory so far.
+2026-09-09 21:04:58.647 INFO   [1852B3\7637BF] Auto-routing pass #5 on board 'ca21f8640f32ecb4779d2e9f85d8a87e' was completed in 0.48 seconds with score 874.99 (7 unrouted and 0 violations), using 2.86 CPU seconds and the job allocated 11.25 GB of memory so far.
+2026-09-09 21:04:59.031 INFO   [1852B3\7637BF] Auto-routing pass #6 on board 'ad2972636c6589cf52c82923fa6ef2ec' was completed in 0.37 seconds with score 910.71 (5 unrouted and 0 violations), using 3.83 CPU seconds and the job allocated 16.29 GB of memory so far.
+2026-09-09 21:04:59.367 INFO   [1852B3\7637BF] Auto-routing pass #7 on board 'd72aaca80a7d0705fcb31552e151494d' was completed in 0.32 seconds with score 910.71 (5 unrouted and 0 violations), using 3.83 CPU seconds and the job allocated 16.29 GB of memory so far.
+2026-09-09 21:04:59.776 INFO   [1852B3\7637BF] Auto-routing pass #8 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.39 seconds with score 910.71 (5 unrouted and 0 violations), using 3.83 CPU seconds and the job allocated 16.29 GB of memory so far.
+2026-09-09 21:05:00.079 INFO   [1852B3\7637BF] Auto-routing pass #9 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.29 seconds with score 910.71 (5 unrouted and 0 violations), using 4.80 CPU seconds and the job allocated 21.52 GB of memory so far.
+2026-09-09 21:05:00.594 INFO   [1852B3\7637BF] Auto-routing pass #10 on board '35670296029ef82420e0a4bd3ca16026' was completed in 0.49 seconds with score 892.85 (6 unrouted and 0 violations), using 4.80 CPU seconds and the job allocated 21.52 GB of memory so far.
+2026-09-09 21:05:01.150 INFO   [1852B3\7637BF] Auto-routing pass #11 on board '8491cdb568c0c04d41d0037b9d1157a9' was completed in 0.54 seconds with score 874.99 (7 unrouted and 0 violations), using 5.80 CPU seconds and the job allocated 26.92 GB of memory so far.
+2026-09-09 21:05:01.576 INFO   [1852B3\7637BF] Auto-routing pass #12 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.00 seconds with score 910.71 (5 unrouted and 0 violations), using 5.80 CPU seconds and the job allocated 26.92 GB of memory so far.
+2026-09-09 21:05:01.851 INFO   [1852B3\7637BF] Auto-routing pass #13 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.26 seconds with score 910.71 (5 unrouted and 0 violations), using 5.80 CPU seconds and the job allocated 26.92 GB of memory so far.
+2026-09-09 21:05:02.338 INFO   [1852B3\7637BF] Auto-routing pass #14 on board '35670296029ef82420e0a4bd3ca16026' was completed in 0.47 seconds with score 892.85 (6 unrouted and 0 violations), using 6.73 CPU seconds and the job allocated 32.42 GB of memory so far.
+2026-09-09 21:05:02.885 INFO   [1852B3\7637BF] Auto-routing pass #15 on board '6c9a9cc98f02867ea258bba794b67f64' was completed in 0.53 seconds with score 874.99 (7 unrouted and 0 violations), using 6.73 CPU seconds and the job allocated 32.42 GB of memory so far.
+2026-09-09 21:05:03.274 INFO   [1852B3\7637BF] Auto-routing pass #16 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.00 seconds with score 910.71 (5 unrouted and 0 violations), using 7.64 CPU seconds and the job allocated 38.04 GB of memory so far.
+2026-09-09 21:05:03.517 INFO   [1852B3\7637BF] Auto-routing pass #17 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.23 seconds with score 910.71 (5 unrouted and 0 violations), using 7.64 CPU seconds and the job allocated 38.04 GB of memory so far.
+2026-09-09 21:05:03.981 INFO   [1852B3\7637BF] Auto-routing pass #18 on board 'e66c4716b1d9d8e7aa6aedc5e7906e3f' was completed in 0.44 seconds with score 892.85 (6 unrouted and 0 violations), using 8.59 CPU seconds and the job allocated 44.08 GB of memory so far.
+2026-09-09 21:05:03.988 INFO   [1852B3\7637BF] The router's best score (910.71) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (5 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '+3V3' (1 unrouted connection):
+    - J21-p0  ->  J20-p0
+  Net 'GND' (2 unrouted connections):
+    - J21-p1  ->  J20-p1
+    - J1-p12  ->  J20-p1
+  Net 'SCL' (2 unrouted connections):
+    - J21-p2  ->  J20-p2
+    - R17-p0  ->  J21-p2
+  Net 'BTN' (1 unrouted connection):
+    - J11-p1  ->  J1-p35
+2026-09-09 21:05:04.028 INFO   [1852B3\7637BF] Auto-routing stage completed: started with 56 unrouted nets, completed in 9.05 seconds, final score: 910.71 (5 unrouted and 0 violations), using 8.59 total CPU seconds, 44.08 GB total allocated, and 655.2 MB peak heap usage.
+2026-09-09 21:05:04.039 INFO   [1852B3\7637BF] Optimization stage started on board 'df75b92027bb2aef336974c510385cc7' with score 892.85 (6 unrouted and 0 violations).
+2026-09-09 21:05:04.736 INFO   [1852B3\7637BF] Stopping optimization pass #1 early after 50 consecutive items could not be improved.
+2026-09-09 21:05:04.744 INFO   [1852B3\7637BF] Optimizer pass #1 on board 'df0b6a2dd6df747c8d2ef60b3466a533' was completed in 0.68 seconds with the score of 892.85 (6 unrouted and 0 violations).
+2026-09-09 21:05:04.749 INFO   [1852B3\7637BF] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-09-09 21:05:04.755 INFO   [1852B3\7637BF] Optimization stage completed: started with score 892.85 (6 unrouted and 0 violations), completed in 0.71 seconds, final score: 892.85 (6 unrouted and 0 violations), using 0.66 total CPU seconds, 6.34 GB total allocated, and 152.3 MB peak heap usage.
+2026-09-09 21:05:04.759 INFO   [1852B3\7637BF] Job '1852B3\7637BF' finished with state: COMPLETED (elapsed: 9.82 seconds, finished at UTC: 2026-09-09T18:05:04.758410500Z).
+2026-09-09 21:05:05.163 INFO   Saving output file 'C:\repos\batman-a\hardware\batman\reports\clean-routing\A\routing.ses' (SES)...
+2026-09-09 21:05:05.166 INFO   Successfully saved output file 'C:\repos\batman-a\hardware\batman\reports\clean-routing\A\routing.ses' (12324 bytes).

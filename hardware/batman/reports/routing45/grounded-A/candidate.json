@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T21:50:54",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "candidate.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Зона 'GND_BOTTOM' [GND] на B.Cu, пріоритет 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "8245eaaa-b3b7-447a-a646-7f6d1ad4ad5c"
+                },
+                {
+                    "description": "Зона 'GND_BOTTOM' [GND] на B.Cu, пріоритет 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "8245eaaa-b3b7-447a-a646-7f6d1ad4ad5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

@@ -1,0 +1,826 @@
+{
+  "scene": "BATMAN - modular cable assembly",
+  "pitch_mm": 32,
+  "cassette_mm": [
+    92,
+    202,
+    2
+  ],
+  "groove_mm": 2.4,
+  "vertical_slide_clearance_mm": 0.4,
+  "levels_mm": [
+    87.2,
+    173.2
+  ],
+  "mounts": [
+    {
+      "level": "C1",
+      "lane": "left",
+      "height": 87,
+      "center_x": -49,
+      "rotation": 0,
+      "plate_bottom": 87.2,
+      "plate_top": 89.2
+    },
+    {
+      "level": "C1",
+      "lane": "right",
+      "height": 87,
+      "center_x": 49,
+      "rotation": 180,
+      "plate_bottom": 87.2,
+      "plate_top": 89.2
+    },
+    {
+      "level": "C2",
+      "lane": "left",
+      "height": 173,
+      "center_x": -49,
+      "rotation": 0,
+      "plate_bottom": 173.2,
+      "plate_top": 175.2
+    },
+    {
+      "level": "C2",
+      "lane": "right",
+      "height": 173,
+      "center_x": 49,
+      "rotation": 180,
+      "plate_bottom": 173.2,
+      "plate_top": 175.2
+    }
+  ],
+  "routes": [
+    {
+      "name": "Logic and control",
+      "mount": {
+        "level": "C1",
+        "lane": "left",
+        "height": 87,
+        "center_x": -49,
+        "rotation": 0,
+        "plate_bottom": 87.2,
+        "plate_top": 89.2
+      },
+      "base_z": 93.4,
+      "tiles": [
+        {
+          "object": "D32.001",
+          "part": "D32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            -80
+          ],
+          "ports": [
+            "N"
+          ]
+        },
+        {
+          "object": "T32.001",
+          "part": "T32",
+          "rotation": 180,
+          "xy": [
+            -32,
+            -48
+          ],
+          "ports": [
+            "N",
+            "S",
+            "W"
+          ]
+        },
+        {
+          "object": "S32.001",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            -16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.002",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "T32.002",
+          "part": "T32",
+          "rotation": 180,
+          "xy": [
+            -32,
+            48
+          ],
+          "ports": [
+            "N",
+            "S",
+            "W"
+          ]
+        },
+        {
+          "object": "D32.002",
+          "part": "D32",
+          "rotation": 180,
+          "xy": [
+            -32,
+            80
+          ],
+          "ports": [
+            "S"
+          ]
+        },
+        {
+          "object": "D32.003",
+          "part": "D32",
+          "rotation": 270,
+          "xy": [
+            -64,
+            -48
+          ],
+          "ports": [
+            "E"
+          ]
+        },
+        {
+          "object": "D32.004",
+          "part": "D32",
+          "rotation": 270,
+          "xy": [
+            -64,
+            48
+          ],
+          "ports": [
+            "E"
+          ]
+        }
+      ],
+      "edges": [
+        [
+          [
+            -32,
+            -80
+          ],
+          [
+            -32,
+            -48
+          ]
+        ],
+        [
+          [
+            -32,
+            -48
+          ],
+          [
+            -32,
+            -16
+          ]
+        ],
+        [
+          [
+            -32,
+            -16
+          ],
+          [
+            -32,
+            16
+          ]
+        ],
+        [
+          [
+            -32,
+            16
+          ],
+          [
+            -32,
+            48
+          ]
+        ],
+        [
+          [
+            -32,
+            48
+          ],
+          [
+            -32,
+            80
+          ]
+        ],
+        [
+          [
+            -32,
+            -48
+          ],
+          [
+            -64,
+            -48
+          ]
+        ],
+        [
+          [
+            -32,
+            48
+          ],
+          [
+            -64,
+            48
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Spare digital 48",
+      "mount": {
+        "level": "C1",
+        "lane": "right",
+        "height": 87,
+        "center_x": 49,
+        "rotation": 180,
+        "plate_bottom": 87.2,
+        "plate_top": 89.2
+      },
+      "base_z": 93.4,
+      "tiles": [
+        {
+          "object": "D32.005",
+          "part": "D32",
+          "rotation": 0,
+          "xy": [
+            32,
+            -48
+          ],
+          "ports": [
+            "N"
+          ]
+        },
+        {
+          "object": "S32.003",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            32,
+            -16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "D32.006",
+          "part": "D32",
+          "rotation": 180,
+          "xy": [
+            32,
+            16
+          ],
+          "ports": [
+            "S"
+          ]
+        }
+      ],
+      "edges": [
+        [
+          [
+            32,
+            -48
+          ],
+          [
+            32,
+            -16
+          ]
+        ],
+        [
+          [
+            32,
+            -16
+          ],
+          [
+            32,
+            16
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Spare digital 49",
+      "mount": {
+        "level": "C1",
+        "lane": "right",
+        "height": 87,
+        "center_x": 49,
+        "rotation": 180,
+        "plate_bottom": 87.2,
+        "plate_top": 89.2
+      },
+      "base_z": 93.4,
+      "tiles": [
+        {
+          "object": "D32.007",
+          "part": "D32",
+          "rotation": 0,
+          "xy": [
+            64,
+            -48
+          ],
+          "ports": [
+            "N"
+          ]
+        },
+        {
+          "object": "S32.004",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            64,
+            -16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "D32.008",
+          "part": "D32",
+          "rotation": 180,
+          "xy": [
+            64,
+            16
+          ],
+          "ports": [
+            "S"
+          ]
+        }
+      ],
+      "edges": [
+        [
+          [
+            64,
+            -48
+          ],
+          [
+            64,
+            -16
+          ]
+        ],
+        [
+          [
+            64,
+            -16
+          ],
+          [
+            64,
+            16
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "DPS relay supply",
+      "mount": {
+        "level": "C2",
+        "lane": "left",
+        "height": 173,
+        "center_x": -49,
+        "rotation": 0,
+        "plate_bottom": 173.2,
+        "plate_top": 175.2
+      },
+      "base_z": 179.4,
+      "tiles": [
+        {
+          "object": "L32.001",
+          "part": "L32",
+          "rotation": 90,
+          "xy": [
+            -32,
+            -80
+          ],
+          "ports": [
+            "N",
+            "W"
+          ]
+        },
+        {
+          "object": "S32.005",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            -48
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.006",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            -16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.007",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.008",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            -32,
+            48
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "L32.002",
+          "part": "L32",
+          "rotation": 180,
+          "xy": [
+            -32,
+            80
+          ],
+          "ports": [
+            "S",
+            "W"
+          ]
+        },
+        {
+          "object": "D32.009",
+          "part": "D32",
+          "rotation": 270,
+          "xy": [
+            -64,
+            -80
+          ],
+          "ports": [
+            "E"
+          ]
+        },
+        {
+          "object": "D32.010",
+          "part": "D32",
+          "rotation": 270,
+          "xy": [
+            -64,
+            80
+          ],
+          "ports": [
+            "E"
+          ]
+        }
+      ],
+      "edges": [
+        [
+          [
+            -32,
+            -80
+          ],
+          [
+            -32,
+            -48
+          ]
+        ],
+        [
+          [
+            -32,
+            -48
+          ],
+          [
+            -32,
+            -16
+          ]
+        ],
+        [
+          [
+            -32,
+            -16
+          ],
+          [
+            -32,
+            16
+          ]
+        ],
+        [
+          [
+            -32,
+            16
+          ],
+          [
+            -32,
+            48
+          ]
+        ],
+        [
+          [
+            -32,
+            48
+          ],
+          [
+            -32,
+            80
+          ]
+        ],
+        [
+          [
+            -32,
+            -80
+          ],
+          [
+            -64,
+            -80
+          ]
+        ],
+        [
+          [
+            -32,
+            80
+          ],
+          [
+            -64,
+            80
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Power branches",
+      "mount": {
+        "level": "C2",
+        "lane": "right",
+        "height": 173,
+        "center_x": 49,
+        "rotation": 180,
+        "plate_bottom": 173.2,
+        "plate_top": 175.2
+      },
+      "base_z": 179.4,
+      "tiles": [
+        {
+          "object": "D32.011",
+          "part": "D32",
+          "rotation": 0,
+          "xy": [
+            32,
+            -80
+          ],
+          "ports": [
+            "N"
+          ]
+        },
+        {
+          "object": "T32.003",
+          "part": "T32",
+          "rotation": 0,
+          "xy": [
+            32,
+            -48
+          ],
+          "ports": [
+            "E",
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.009",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            32,
+            -16
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "T32.004",
+          "part": "T32",
+          "rotation": 0,
+          "xy": [
+            32,
+            16
+          ],
+          "ports": [
+            "E",
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "S32.010",
+          "part": "S32",
+          "rotation": 0,
+          "xy": [
+            32,
+            48
+          ],
+          "ports": [
+            "N",
+            "S"
+          ]
+        },
+        {
+          "object": "L32.003",
+          "part": "L32",
+          "rotation": 270,
+          "xy": [
+            32,
+            80
+          ],
+          "ports": [
+            "E",
+            "S"
+          ]
+        },
+        {
+          "object": "D32.012",
+          "part": "D32",
+          "rotation": 90,
+          "xy": [
+            64,
+            -48
+          ],
+          "ports": [
+            "W"
+          ]
+        },
+        {
+          "object": "D32.013",
+          "part": "D32",
+          "rotation": 90,
+          "xy": [
+            64,
+            16
+          ],
+          "ports": [
+            "W"
+          ]
+        },
+        {
+          "object": "D32.014",
+          "part": "D32",
+          "rotation": 90,
+          "xy": [
+            64,
+            80
+          ],
+          "ports": [
+            "W"
+          ]
+        }
+      ],
+      "edges": [
+        [
+          [
+            32,
+            -80
+          ],
+          [
+            32,
+            -48
+          ]
+        ],
+        [
+          [
+            32,
+            -48
+          ],
+          [
+            32,
+            -16
+          ]
+        ],
+        [
+          [
+            32,
+            -16
+          ],
+          [
+            32,
+            16
+          ]
+        ],
+        [
+          [
+            32,
+            16
+          ],
+          [
+            32,
+            48
+          ]
+        ],
+        [
+          [
+            32,
+            48
+          ],
+          [
+            32,
+            80
+          ]
+        ],
+        [
+          [
+            32,
+            -48
+          ],
+          [
+            64,
+            -48
+          ]
+        ],
+        [
+          [
+            32,
+            16
+          ],
+          [
+            64,
+            16
+          ]
+        ],
+        [
+          [
+            32,
+            80
+          ],
+          [
+            64,
+            80
+          ]
+        ]
+      ]
+    }
+  ],
+  "shared_templates": [
+    "C92",
+    "S32",
+    "L32",
+    "T32",
+    "X32",
+    "D32",
+    "K32",
+    "J32",
+    "A4"
+  ],
+  "unchanged_components": 118,
+  "non_manifold": [],
+  "unexpected_component_collisions": [],
+  "status": "Modular mechanical layout; harness lengths and print fit require verification",
+  "new_part_intersections": [],
+  "open_intertile_ports": 26,
+  "continuous_joint_floors": 26,
+  "mounted_tiles": 31,
+  "identical_cassettes": 4,
+  "fastener_tip_separation_mm": 4,
+  "bom": {
+    "F92": 2,
+    "R92": 2,
+    "C92": 4,
+    "J32": 26,
+    "D32": 14,
+    "A4": 31,
+    "K32": 31,
+    "T32": 4,
+    "S32": 10,
+    "L32": 3
+  }
+}

@@ -1,0 +1,540 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T11:51:00",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "unrouted.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of C11",
+                    "pos": {
+                        "x": 44.46,
+                        "y": 37.0
+                    },
+                    "uuid": "56101b0b-f4af-4160-b518-77dc5cb20120"
+                },
+                {
+                    "description": "PTH pad 1 [+3V3] of J23",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 40.0
+                    },
+                    "uuid": "35a72473-c3e3-45f1-a358-da0b46627c0b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of J30",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 57.0
+                    },
+                    "uuid": "492add1d-f662-438e-be77-a07504e3cf72"
+                },
+                {
+                    "description": "Pad 2 [+3V3] of R11 on B.Cu",
+                    "pos": {
+                        "x": 54.9,
+                        "y": 51.0
+                    },
+                    "uuid": "9b6cedf1-7cf9-4d77-90c1-82f39461b2df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [+3V3] of R11 on B.Cu",
+                    "pos": {
+                        "x": 54.9,
+                        "y": 51.0
+                    },
+                    "uuid": "9b6cedf1-7cf9-4d77-90c1-82f39461b2df"
+                },
+                {
+                    "description": "PTH pad 3 [+3V3] of Q3",
+                    "pos": {
+                        "x": 55.54,
+                        "y": 42.0
+                    },
+                    "uuid": "cd414b2f-56bc-4df5-9f2a-68e72cadf690"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 3 [+3V3] of Q3",
+                    "pos": {
+                        "x": 55.54,
+                        "y": 42.0
+                    },
+                    "uuid": "cd414b2f-56bc-4df5-9f2a-68e72cadf690"
+                },
+                {
+                    "description": "PTH pad 1 [+3V3] of J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 40.0
+                    },
+                    "uuid": "ab81c6c7-28f0-4ab7-b1eb-86ba8295d240"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 3 [+3V3] of Q3",
+                    "pos": {
+                        "x": 55.54,
+                        "y": 42.0
+                    },
+                    "uuid": "cd414b2f-56bc-4df5-9f2a-68e72cadf690"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of C11 on B.Cu",
+                    "pos": {
+                        "x": 45.1,
+                        "y": 37.0
+                    },
+                    "uuid": "0093b93f-5332-45b7-a063-52dbbe65426e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C11 on B.Cu",
+                    "pos": {
+                        "x": 48.9,
+                        "y": 37.0
+                    },
+                    "uuid": "c452ab37-5ca2-45bf-bdfe-c13a2e0e17eb"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of J23",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 42.54
+                    },
+                    "uuid": "ba29164c-b63d-4ac8-8bd4-ccf5940f7cb7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J30",
+                    "pos": {
+                        "x": 52.54,
+                        "y": 57.0
+                    },
+                    "uuid": "390afd74-509b-4094-a6c4-bdde5ed6e7ad"
+                },
+                {
+                    "description": "Pad 2 [GND] of C12 on B.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 52.1
+                    },
+                    "uuid": "0983277d-8d17-46af-9b85-b6fa3ca177b3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 42.54
+                    },
+                    "uuid": "1f333cf4-e594-4689-9cb7-fc073914bb93"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C12",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 51.46
+                    },
+                    "uuid": "c8b2df75-e197-4bb0-b931-85cb204b9eb9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 42.54
+                    },
+                    "uuid": "1f333cf4-e594-4689-9cb7-fc073914bb93"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C11",
+                    "pos": {
+                        "x": 49.54,
+                        "y": 37.0
+                    },
+                    "uuid": "fed096fe-3127-48c1-8230-a5ddcd8a6af2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3_SENS] of C12 on B.Cu",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 55.9
+                    },
+                    "uuid": "4ff23e9a-d0f4-4c99-a48a-a63f49bfec48"
+                },
+                {
+                    "description": "PTH pad 3 [+3V3_SENS] of J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 45.08
+                    },
+                    "uuid": "0ff0be83-a972-48bc-a0de-d8eb6e86af67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 3 [+3V3_SENS] of J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 45.08
+                    },
+                    "uuid": "0ff0be83-a972-48bc-a0de-d8eb6e86af67"
+                },
+                {
+                    "description": "PTH pad 1 [+3V3_SENS] of Q3",
+                    "pos": {
+                        "x": 50.46,
+                        "y": 42.0
+                    },
+                    "uuid": "904a5c0a-c776-43a4-9420-449e5bb26eff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [BASE3] of R10 on B.Cu",
+                    "pos": {
+                        "x": 47.9,
+                        "y": 48.0
+                    },
+                    "uuid": "b82764a6-0852-4fbd-9a3c-1bf2dbf260b2"
+                },
+                {
+                    "description": "Pad 1 [BASE3] of R11 on B.Cu",
+                    "pos": {
+                        "x": 51.1,
+                        "y": 51.0
+                    },
+                    "uuid": "dd717231-9db9-40ef-9a4d-8f383b939256"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [BASE3] of Q3",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 44.54
+                    },
+                    "uuid": "ec9b2a47-013c-4f29-9e48-d006b887577c"
+                },
+                {
+                    "description": "Pad 2 [BASE3] of R10 on B.Cu",
+                    "pos": {
+                        "x": 47.9,
+                        "y": 48.0
+                    },
+                    "uuid": "b82764a6-0852-4fbd-9a3c-1bf2dbf260b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 3 [SENS_PWR] of J23",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 45.08
+                    },
+                    "uuid": "09a4f3c0-a597-4c62-b0b0-1f6cd5e6888b"
+                },
+                {
+                    "description": "Pad 1 [SENS_PWR] of R10 on B.Cu",
+                    "pos": {
+                        "x": 44.1,
+                        "y": 48.0
+                    },
+                    "uuid": "fe56d5c2-57f3-46fe-a98f-c534625deb56"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint J30",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 57.0
+                    },
+                    "uuid": "07a0f417-2ba3-4019-a98b-1e61c66ecf3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 42.0
+                    },
+                    "uuid": "18942bc8-01fd-439f-91b4-e05bdc5c6a93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 48.0
+                    },
+                    "uuid": "34b3b1b7-05fc-4ad4-90e8-9845665c9a43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 51.0
+                    },
+                    "uuid": "5161b6d7-796c-4f40-9bbb-2aaaa1904380"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint J23",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 40.0
+                    },
+                    "uuid": "75558b03-7f87-4c7e-835c-f511becab1ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint HC3",
+                    "pos": {
+                        "x": 33.5,
+                        "y": 61.5
+                    },
+                    "uuid": "76216fa0-1d0e-4c4e-ba19-f45f0df16093"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint HC4",
+                    "pos": {
+                        "x": 71.5,
+                        "y": 61.5
+                    },
+                    "uuid": "767e16be-58a4-4508-860a-635409fd2151"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 47.0,
+                        "y": 37.0
+                    },
+                    "uuid": "7f9451b6-dc61-41e4-a9df-aab550c9cf90"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 54.0
+                    },
+                    "uuid": "b8554fd5-ff7b-496a-b343-944f9e8ef786"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint J24",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 40.0
+                    },
+                    "uuid": "b9a05071-c73b-4011-bd8d-f3148c87d556"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint HC2",
+                    "pos": {
+                        "x": 71.5,
+                        "y": 33.5
+                    },
+                    "uuid": "c0b0fb8c-e3af-4479-84fd-c788c3348807"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Batman'",
+            "items": [
+                {
+                    "description": "Footprint HC1",
+                    "pos": {
+                        "x": 33.5,
+                        "y": 33.5
+                    },
+                    "uuid": "f0a8e91d-65be-446c-8de5-54af3232008f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

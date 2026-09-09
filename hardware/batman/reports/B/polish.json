@@ -1,0 +1,12 @@
+{
+  "before": {
+    "segments": 148,
+    "short_segments": 28
+  },
+  "after": {
+    "segments": 121,
+    "short_segments": 0,
+    "minimum_length_mm": 1.0283000000000015
+  },
+  "drc_trials": 37
+}

@@ -1,0 +1,75 @@
+(footprint "LUT_WA7"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "WA7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6bd27c46-e97f-4e41-92f1-7fc5d9b5797d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "INSULATED_WIRE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcd5b59b-4ac3-4cd2-b648-73c3ffcab10e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beec8920-1fd6-4244-ae76-7353bf538515")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c40cc3f-566e-44c7-9a32-3f1678be3591")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 0)
+		(end 0.92 16.62)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4d36c61a-5116-4b68-b600-d35d30fdf087")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "4e759ae2-aa43-4bf5-b06a-d5e59e14b4e4")
+	)
+	(pad "1" smd circle
+		(at 0.92 16.62 270)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "5d42be7f-51af-46a0-8258-d08f9d4d9d1e")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,115 @@
+(footprint "LUT_J24"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J24"
+		(at 0 -2.5 90)
+		(layer "F.SilkS")
+		(uuid "a56fe88e-f1ae-4478-aed8-963bf23d8101")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "LINK_GND_+3V3_SENS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93cabbfd-afa1-470a-bdd6-093c425c992f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa6d0ce8-7f4a-47a6-b380-d5a32a49389d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5390467-0410-4064-804d-c9efae73518a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0eb54268-f590-4411-9718-d6516c14c24e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e2963cbd-8b05-42d5-9aa9-b210a436f93f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e3e9444-7bdd-4689-b533-52e5615ee1ee")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 2.54 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "31d1ee6c-4034-4964-8afa-28b4fc6f54c7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "7e42cad6-8c3a-415f-afe5-f46b0f67c260")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "61f527bb-7d3b-41df-93f8-7426c1834460")
+	)
+	(embedded_fonts no)
+)

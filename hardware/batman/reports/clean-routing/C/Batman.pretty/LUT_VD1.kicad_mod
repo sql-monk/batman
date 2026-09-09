@@ -1,0 +1,115 @@
+(footprint "LUT_VD1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "VD1"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "57c60be9-8b9e-40f8-aa7a-012671536bfc")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1N5819"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "464cd55e-ed6e-4623-b520-c95dd557c1dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac9db3e7-0e03-4e0a-b33d-1b498a44ebeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e2e3392-19c8-413d-9c48-7b64e7cf8061")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5935c89c-ed54-4a0e-b748-019297fa0ceb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alias" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94216543-0736-4080-90ca-59f7861c2076")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -3.81 0)
+		(end -5.01 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "45c12de8-ae05-4e99-a7a9-61f5d991c0e9")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 2.61 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0e376aca-28c7-4254-9b39-14998c86dc4b")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "5cf12159-617e-4313-b373-c06ad178ebdf")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "cfd67f9e-6d55-46b0-b4af-9be0b94adef1")
+	)
+	(embedded_fonts no)
+)

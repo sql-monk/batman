@@ -1,0 +1,273 @@
+{
+  "schematic_pages": 7,
+  "copper-mirrored": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ],
+      [
+        90,
+        70
+      ],
+      [
+        45,
+        35
+      ],
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 1221
+  },
+  "copper-top-view": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ],
+      [
+        90,
+        70
+      ],
+      [
+        45,
+        35
+      ],
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 1221
+  },
+  "assembly": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ],
+      [
+        90,
+        70
+      ],
+      [
+        45,
+        35
+      ],
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 1054
+  },
+  "wiring": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ],
+      [
+        90,
+        70
+      ],
+      [
+        45,
+        35
+      ],
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 388
+  },
+  "component-labels": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ],
+      [
+        90,
+        70
+      ],
+      [
+        45,
+        35
+      ],
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 409
+  },
+  "A/copper-mirrored": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ]
+    ],
+    "drawing_count": 428
+  },
+  "A/copper-top-view": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ]
+    ],
+    "drawing_count": 428
+  },
+  "A/assembly": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ]
+    ],
+    "drawing_count": 492
+  },
+  "A/wiring": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        80,
+        80
+      ]
+    ],
+    "drawing_count": 130
+  },
+  "B/copper-mirrored": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        90,
+        70
+      ]
+    ],
+    "drawing_count": 511
+  },
+  "B/copper-top-view": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        90,
+        70
+      ]
+    ],
+    "drawing_count": 511
+  },
+  "B/assembly": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        90,
+        70
+      ]
+    ],
+    "drawing_count": 240
+  },
+  "B/wiring": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        90,
+        70
+      ]
+    ],
+    "drawing_count": 43
+  },
+  "C/copper-mirrored": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        45,
+        35
+      ]
+    ],
+    "drawing_count": 95
+  },
+  "C/copper-top-view": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        45,
+        35
+      ]
+    ],
+    "drawing_count": 95
+  },
+  "C/assembly": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        45,
+        35
+      ]
+    ],
+    "drawing_count": 128
+  },
+  "C/wiring": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        45,
+        35
+      ]
+    ],
+    "drawing_count": 22
+  },
+  "D/copper-mirrored": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 161
+  },
+  "D/copper-top-view": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 161
+  },
+  "D/assembly": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 194
+  },
+  "D/wiring": {
+    "scale": "1:1",
+    "outlines_mm": [
+      [
+        65,
+        40
+      ]
+    ],
+    "drawing_count": 36
+  }
+}

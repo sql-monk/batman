@@ -1,0 +1,92 @@
+(footprint "Terminal_5_P5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "XGND"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "aa1dfd7c-f231-4618-961d-10074a0d9eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Terminal_5_P5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33c1f055-94b1-415e-982a-798d40d7388c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "168365f2-5ea5-4777-8ffc-d460138030e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58701402-b6e2-4fcb-bf2c-8a50e6c93d98")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "f7bd360b-86cc-4d78-a44b-35a45f9784e0")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "b8612ce9-8722-49d8-aca7-b8e33407a35c")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "6850d737-5776-431d-a0fb-f11c7e332977")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "b8116051-425a-408d-b751-0c32dadbf71a")
+	)
+	(pad "5" thru_hole circle
+		(at 20 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "5ff40bdb-edcd-4210-bc3b-ff8331d3d1e9")
+	)
+	(embedded_fonts no)
+)

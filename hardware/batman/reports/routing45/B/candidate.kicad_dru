@@ -1,0 +1,19 @@
+(version 1)
+(rule "LUT copper clearance"
+    (constraint clearance (min 0.5mm)))
+(rule "LUT track width"
+    (constraint track_width (min 0.8mm)))
+(rule "LUT copper edge"
+    (constraint edge_clearance (min 0.5mm)))
+(rule "Room around tracks"
+    (condition "A.Type == 'Track' || B.Type == 'Track'")
+    (constraint clearance (min 0.65mm)))
+(rule "Low voltage supply width"
+    (condition "A.NetName == 'GND' || A.NetName == '+3V3' || A.NetName == '+3V3_SENS' || A.NetName == '+5V' || A.NetName == '+5V_RELAY_VCC' || A.NetName == '+5V_RELAY_COIL'")
+    (constraint track_width (min 1.0mm)))
+(rule "Battery and raw voltage clearance"
+    (condition "A.NetName == 'B1' || A.NetName == 'B2' || A.NetName == 'LOAD+' || A.NetName == 'VIN_DC' || B.NetName == 'B1' || B.NetName == 'B2' || B.NetName == 'LOAD+' || B.NetName == 'VIN_DC'")
+    (constraint clearance (min 1.0mm)))
+(rule "Battery and raw voltage width"
+    (condition "A.NetName == 'B1' || A.NetName == 'B2' || A.NetName == 'LOAD+' || A.NetName == 'VIN_DC'")
+    (constraint track_width (min 1.2mm)))

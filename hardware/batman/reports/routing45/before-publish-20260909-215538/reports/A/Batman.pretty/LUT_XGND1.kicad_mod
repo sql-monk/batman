@@ -1,0 +1,115 @@
+(footprint "LUT_XGND1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "XGND1"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "d83f54b7-cbcc-47eb-b5ad-7b72dfaf3cc0")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "GND_P24_P25_P26_P27_P28"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdcb309f-a52d-46c2-94b4-f3915ad6511c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdbedf1c-f716-485b-9158-1318932e0922")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc1775bd-92e4-4804-a1ec-61cb88b674ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Board" "B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6fdca64-1770-47ad-87c6-a6d3012054cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Alias" "XGND"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "01caa364-71ac-427b-8c7f-309c75ac2a14")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "7de8d4a7-663f-4e53-a1b6-aecc73082d3b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "15e080b2-11ad-41ec-89d7-0f6ed6c49bda")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "37a1ca36-3843-4c5c-824e-d6aff75385d6")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "df924fee-fa18-4294-90e7-974cfaa16684")
+	)
+	(pad "5" thru_hole circle
+		(at 20 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "a42f9dcf-6072-43d2-994a-90b2178bd7c5")
+	)
+	(embedded_fonts no)
+)

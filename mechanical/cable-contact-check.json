@@ -1,0 +1,802 @@
+{
+  "duct_count": 33,
+  "unsupported_ducts": [],
+  "ducts": [
+    {
+      "duct": "P0 POWER",
+      "supported": true,
+      "contact_path": [
+        "P0 POWER.008",
+        "Power spine M3 support.014"
+      ]
+    },
+    {
+      "duct": "S2 CONTROL",
+      "supported": true,
+      "contact_path": [
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "S1 LOGIC",
+      "supported": true,
+      "contact_path": [
+        "S1 LOGIC.008",
+        "S1 carrier support.008"
+      ]
+    },
+    {
+      "duct": "PV REAR POWER",
+      "supported": true,
+      "contact_path": [
+        "PV REAR POWER.003",
+        "P-IN XT60.006",
+        "XT60 duct support.006"
+      ]
+    },
+    {
+      "duct": "P-IN XT60",
+      "supported": true,
+      "contact_path": [
+        "P-IN XT60.006",
+        "XT60 duct support.006"
+      ]
+    },
+    {
+      "duct": "PF FUSES",
+      "supported": true,
+      "contact_path": [
+        "PF FUSES.006",
+        "Fuse duct wall shelf",
+        "Fuse duct wall bracket panel foot"
+      ]
+    },
+    {
+      "duct": "PF RISER LINK",
+      "supported": true,
+      "contact_path": [
+        "PF RISER LINK.003",
+        "PV REAR POWER.003",
+        "P-IN XT60.006",
+        "XT60 duct support.006"
+      ]
+    },
+    {
+      "duct": "P1 BRANCH",
+      "supported": true,
+      "contact_path": [
+        "P1 BRANCH.008",
+        "P1 support.009"
+      ]
+    },
+    {
+      "duct": "P2 BRANCH",
+      "supported": true,
+      "contact_path": [
+        "P2 BRANCH.008",
+        "P2 support.009"
+      ]
+    },
+    {
+      "duct": "P3 BRANCH",
+      "supported": true,
+      "contact_path": [
+        "P3 BRANCH.008",
+        "P3 support.008"
+      ]
+    },
+    {
+      "duct": "PD DPS IN OUT",
+      "supported": true,
+      "contact_path": [
+        "PD DPS IN OUT.008",
+        "DPS duct anchored post.001"
+      ]
+    },
+    {
+      "duct": "PR RELAY",
+      "supported": true,
+      "contact_path": [
+        "PR RELAY.008",
+        "Relay duct anchored post"
+      ]
+    },
+    {
+      "duct": "PL LM2596",
+      "supported": true,
+      "contact_path": [
+        "PL LM2596.008",
+        "LM2596 outer anchored post"
+      ]
+    },
+    {
+      "duct": "S2 DPS UART",
+      "supported": true,
+      "contact_path": [
+        "S2 DPS UART.004",
+        "Joined S2 DPS UART",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "S2 RELAY",
+      "supported": true,
+      "contact_path": [
+        "S2 RELAY.008",
+        "S2 CONTROL strap ear.019",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "S2 ACS SW 1",
+      "supported": true,
+      "contact_path": [
+        "S2 ACS SW 1.004",
+        "S2 CONTROL strap ear.016",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "S2 ACS SW 2",
+      "supported": true,
+      "contact_path": [
+        "S2 ACS SW 2.004",
+        "Joined S2 ACS SW 2",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "S2 ACS SW 3",
+      "supported": true,
+      "contact_path": [
+        "S2 ACS SW 3.004",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV BRANCH 1",
+      "supported": true,
+      "contact_path": [
+        "SV BRANCH 1.004",
+        "S2 CONTROL strap ear.016",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV BRANCH 2",
+      "supported": true,
+      "contact_path": [
+        "SV BRANCH 2.004",
+        "Joined S2 ACS SW 2",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV BRANCH 3",
+      "supported": true,
+      "contact_path": [
+        "SV BRANCH 3.004",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV DPS",
+      "supported": true,
+      "contact_path": [
+        "SV DPS.004",
+        "S2 DPS UART.004",
+        "Joined S2 DPS UART",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV RELAY",
+      "supported": true,
+      "contact_path": [
+        "SV RELAY.004",
+        "S2 RELAY.008",
+        "S2 CONTROL strap ear.019",
+        "S2 CONTROL.008",
+        "Joined S2 ACS SW 3",
+        "S2 suspension.009"
+      ]
+    },
+    {
+      "duct": "SV LOGIC LINK",
+      "supported": true,
+      "contact_path": [
+        "SV LOGIC LINK.003",
+        "S1 LOGIC.008",
+        "S1 carrier support.008"
+      ]
+    },
+    {
+      "duct": "S1 A",
+      "supported": true,
+      "contact_path": [
+        "S1 A.008",
+        "A duct post.001"
+      ]
+    },
+    {
+      "duct": "S1 C",
+      "supported": true,
+      "contact_path": [
+        "S1 C.008",
+        "C duct post"
+      ]
+    },
+    {
+      "duct": "S1 D",
+      "supported": true,
+      "contact_path": [
+        "S1 D.008",
+        "D duct post.001"
+      ]
+    },
+    {
+      "duct": "S1 B",
+      "supported": true,
+      "contact_path": [
+        "S1 B.008",
+        "B duct post"
+      ]
+    },
+    {
+      "duct": "AN48 B TO ADS",
+      "supported": true,
+      "contact_path": [
+        "AN48 B TO ADS.008",
+        "AN48 B TO ADS anchored saddle"
+      ]
+    },
+    {
+      "duct": "AN49 B TO ADS",
+      "supported": true,
+      "contact_path": [
+        "AN49 B TO ADS.008",
+        "AN49 B TO ADS anchored saddle"
+      ]
+    },
+    {
+      "duct": "UI FRONT RISER",
+      "supported": true,
+      "contact_path": [
+        "UI FRONT RISER.003",
+        "UI LOGIC FEED.006",
+        "S1 carrier support.008"
+      ]
+    },
+    {
+      "duct": "UI OLED BUTTON",
+      "supported": true,
+      "contact_path": [
+        "UI OLED BUTTON.006",
+        "UI FRONT RISER.003",
+        "UI LOGIC FEED.006",
+        "S1 carrier support.008"
+      ]
+    },
+    {
+      "duct": "UI LOGIC FEED",
+      "supported": true,
+      "contact_path": [
+        "UI LOGIC FEED.006",
+        "S1 carrier support.008"
+      ]
+    }
+  ],
+  "anchor_contacts": [
+    {
+      "support": "L1 A bolted crossmember",
+      "anchor": "L1 logic frame grooved frame.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "A duct post",
+      "anchor": "L1 A bolted crossmember",
+      "contact_gap_mm": 0.0,
+      "pass": true
+    },
+    {
+      "support": "A duct post.001",
+      "anchor": "L1 A bolted crossmember",
+      "contact_gap_mm": 0.0,
+      "pass": true
+    },
+    {
+      "support": "C duct post",
+      "anchor": "L1 carrier C plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "C duct post.001",
+      "anchor": "L1 carrier C plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "D duct post",
+      "anchor": "L1 carrier D plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "D duct post.001",
+      "anchor": "L1 carrier D plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "B duct post",
+      "anchor": "L1 carrier B plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "B duct post.001",
+      "anchor": "L1 carrier B plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "DPS duct anchored post",
+      "anchor": "L2 carrier DPS plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "DPS duct anchored post.001",
+      "anchor": "L2 carrier DPS plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "Relay duct anchored post",
+      "anchor": "L2 carrier relay supply plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "Relay duct anchored post.001",
+      "anchor": "L2 carrier relay supply plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "LM2596 outer anchored post",
+      "anchor": "L2 carrier relay supply plate.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "ADS duct frame crossmember",
+      "anchor": "L1 logic frame grooved frame.012",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "AN48 B TO ADS anchored saddle",
+      "anchor": "ADS duct frame crossmember",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "AN49 B TO ADS anchored saddle",
+      "anchor": "ADS duct frame crossmember",
+      "contact_gap_mm": 0,
+      "pass": true
+    },
+    {
+      "support": "Power riser rear brace panel foot",
+      "anchor": "panel back - interface blanks.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "Power riser rear brace panel foot.001",
+      "anchor": "panel back - interface blanks.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "Fuse duct wall bracket panel foot",
+      "anchor": "panel back - interface blanks.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "Fuse duct wall bracket panel foot.001",
+      "anchor": "panel back - interface blanks.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "UI riser front bracket panel foot",
+      "anchor": "panel front.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "UI riser front bracket panel foot.001",
+      "anchor": "panel front.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "OLED duct front bracket panel foot",
+      "anchor": "panel front.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "OLED duct front bracket panel foot.001",
+      "anchor": "panel front.004",
+      "contact_gap_mm": 0.1,
+      "pass": true
+    },
+    {
+      "support": "Power spine M3 support.012",
+      "anchor": "L2 power frame grooved frame.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "Power spine M3 support.013",
+      "anchor": "L2 power frame grooved frame.012",
+      "contact_gap_mm": 0.0504,
+      "pass": true
+    },
+    {
+      "support": "Power spine M3 support.014",
+      "anchor": "L2 power frame grooved frame.012",
+      "contact_gap_mm": 0.0515,
+      "pass": true
+    },
+    {
+      "support": "XT60 duct support.006",
+      "anchor": "base.010",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "XT60 duct support.007",
+      "anchor": "base.010",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P1 support.008",
+      "anchor": "L2 carrier branch 1 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P1 support.009",
+      "anchor": "L2 carrier branch 1 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P2 support.008",
+      "anchor": "L2 carrier branch 2 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P2 support.009",
+      "anchor": "L2 carrier branch 2 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P3 support.008",
+      "anchor": "L2 carrier branch 3 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "P3 support.009",
+      "anchor": "L2 carrier branch 3 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "S1 carrier support.008",
+      "anchor": "L1 carrier B plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "S1 carrier support.009",
+      "anchor": "L1 carrier D plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "S2 suspension.008",
+      "anchor": "L2 carrier branch 1 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    },
+    {
+      "support": "S2 suspension.009",
+      "anchor": "L2 carrier branch 3 plate.012",
+      "contact_gap_mm": 0.05,
+      "pass": true
+    }
+  ],
+  "contact_tolerance_mm": 0.16,
+  "failed_anchor_contacts": [],
+  "joints": [
+    {
+      "first": "S1 A",
+      "second": "S1 LOGIC",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S1 C",
+      "second": "S1 LOGIC",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S1 D",
+      "second": "S1 LOGIC",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S1 B",
+      "second": "S1 LOGIC",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "P1 BRANCH",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "P2 BRANCH",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "P3 BRANCH",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PD DPS IN OUT",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PR RELAY",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PV REAR POWER",
+      "second": "P0 POWER",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PL LM2596",
+      "second": "PV REAR POWER",
+      "gaps_mm": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PV REAR POWER",
+      "second": "P-IN XT60",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PV REAR POWER",
+      "second": "PF RISER LINK",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "PF RISER LINK",
+      "second": "PF FUSES",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 1",
+      "second": "S2 CONTROL",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 1",
+      "second": "SV BRANCH 1",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 2",
+      "second": "S2 CONTROL",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 2",
+      "second": "SV BRANCH 2",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 3",
+      "second": "S2 CONTROL",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 ACS SW 3",
+      "second": "SV BRANCH 3",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 DPS UART",
+      "second": "S2 CONTROL",
+      "gaps_mm": [
+        0.0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 RELAY",
+      "second": "S2 CONTROL",
+      "gaps_mm": [
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 DPS UART",
+      "second": "SV DPS",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 RELAY",
+      "second": "SV RELAY",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S1 LOGIC",
+      "second": "SV LOGIC LINK",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S2 CONTROL",
+      "second": "SV LOGIC LINK",
+      "gaps_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "first": "S1 LOGIC",
+      "second": "UI LOGIC FEED",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "UI LOGIC FEED",
+      "second": "UI FRONT RISER",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    },
+    {
+      "first": "UI FRONT RISER",
+      "second": "UI OLED BUTTON",
+      "gaps_mm": [
+        0
+      ],
+      "pass": true
+    }
+  ],
+  "failed_joints": []
+}

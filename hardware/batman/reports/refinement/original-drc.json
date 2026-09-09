@@ -1,0 +1,866 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T15:54:12",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "batman.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 7,1126 mm",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 145.8811
+                    },
+                    "uuid": "1d1c50a0-61a8-44a5-be35-011102f9a6d9"
+                },
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 3,5000 mm",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 94.5
+                    },
+                    "uuid": "df995b8a-7737-43d5-aef4-66190a0f37e0"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [OW] on B.Cu, length 1,2000 mm",
+                    "pos": {
+                        "x": 91.2,
+                        "y": 84.0
+                    },
+                    "uuid": "ebe08ec4-634d-482d-8092-533a2a4026ef"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0,1547 mm",
+                    "pos": {
+                        "x": 60.54,
+                        "y": 99.0
+                    },
+                    "uuid": "e4aa676d-58fc-4bd4-a233-e6395cdce743"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 2,7098 mm",
+                    "pos": {
+                        "x": 62.4161,
+                        "y": 96.5839
+                    },
+                    "uuid": "366606e4-ad99-40bf-b820-e4d513c71343"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and GND)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0,1189 mm",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 146.0
+                    },
+                    "uuid": "70685c3b-5053-40f8-b103-dc0bf4cad738"
+                },
+                {
+                    "description": "Pad 1 [GND] of WC4_2 on B.Cu",
+                    "pos": {
+                        "x": 133.04,
+                        "y": 145.3625
+                    },
+                    "uuid": "dab6aba8-78ab-43fb-9633-12769c123400"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and GND)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 7,1126 mm",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 145.8811
+                    },
+                    "uuid": "1d1c50a0-61a8-44a5-be35-011102f9a6d9"
+                },
+                {
+                    "description": "Pad 1 [GND] of WC4_2 on B.Cu",
+                    "pos": {
+                        "x": 133.04,
+                        "y": 145.3625
+                    },
+                    "uuid": "dab6aba8-78ab-43fb-9633-12769c123400"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [SW1_ON] on B.Cu, length 9,1800 mm",
+                    "pos": {
+                        "x": 48.82,
+                        "y": 62.32
+                    },
+                    "uuid": "8e5d2b1c-ad63-4445-942e-2f966b42f2ec"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [BASE1] on B.Cu, length 4,5000 mm",
+                    "pos": {
+                        "x": 51.1,
+                        "y": 67.4
+                    },
+                    "uuid": "9932f8c9-0de9-4b8f-923d-306614885ba8"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [BASE1] on B.Cu, length 0,7656 mm",
+                    "pos": {
+                        "x": 43.0259,
+                        "y": 77.8914
+                    },
+                    "uuid": "da7c3a5a-66f5-48a6-8358-800773c34714"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [BASE1] on B.Cu, length 0,8485 mm",
+                    "pos": {
+                        "x": 51.1,
+                        "y": 71.9
+                    },
+                    "uuid": "036c96a1-044b-4ed1-b171-be203048d16f"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [BASE1] on B.Cu, length 11,4185 mm",
+                    "pos": {
+                        "x": 43.0259,
+                        "y": 77.1258
+                    },
+                    "uuid": "4783f606-c55c-4167-b237-0bee9c701557"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [SW1_ON] on B.Cu, length 1,8668 mm",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 61.0
+                    },
+                    "uuid": "dee87ca4-3ff5-403b-a03a-f4ea1d1e3534"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [SW2_ON] on B.Cu, length 1,2162 mm",
+                    "pos": {
+                        "x": 57.14,
+                        "y": 64.0
+                    },
+                    "uuid": "84cfd4a7-6d45-4ba9-b33a-5578c73d9106"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [SW2_ON] on B.Cu, length 9,6400 mm",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 64.0
+                    },
+                    "uuid": "6acbd318-e6ed-451c-b71a-8f3b34fa9d86"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 4,9497 mm",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 91.0
+                    },
+                    "uuid": "fe2be97f-f1be-4433-9cae-5480bd0e5aa2"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 5,0000 mm",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.0
+                    },
+                    "uuid": "ce194d10-7b5d-457f-a8c0-7cb0e9d7b41c"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 26,5000 mm",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 64.5
+                    },
+                    "uuid": "b813fe07-1928-4b8a-a8e9-ef054f55e1c5"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 7,7782 mm",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 59.0
+                    },
+                    "uuid": "5d4444d9-5f7f-4939-aa90-78363f44b963"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 4,9497 mm",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 92.5
+                    },
+                    "uuid": "30f8c657-5d34-4fe9-b218-e890476b7c4f"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 2,0000 mm",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 94.5
+                    },
+                    "uuid": "1707d0fd-fd75-43d6-a9ff-5f5a7e54d439"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and GND)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 1,8581 mm",
+                    "pos": {
+                        "x": 135.54,
+                        "y": 147.8581
+                    },
+                    "uuid": "e9a55ab7-445e-4217-a04e-2fe05a5b650f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and GND)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 2,6335 mm",
+                    "pos": {
+                        "x": 135.54,
+                        "y": 146.0
+                    },
+                    "uuid": "dadc12bd-2261-45e1-93ee-52ce22b67d3e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,1815 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 1,0000 mm",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 59.0
+                    },
+                    "uuid": "6e3d2054-8d0e-4f1e-8bdd-a1c0ccd9414b"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +5V)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J27",
+                    "pos": {
+                        "x": 135.54,
+                        "y": 146.0
+                    },
+                    "uuid": "6f2346fa-1834-4d4f-be0b-253d31bd0279"
+                },
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 98.5
+                    },
+                    "uuid": "5362aee4-16fe-4ec4-9ee7-175b9129971a"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_D' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 90.575,
+                        "y": 125.575
+                    },
+                    "uuid": "ad62ff2d-4d9c-48f0-8952-6bdfd70a0ef6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+5V] of J26",
+                    "pos": {
+                        "x": 60.54,
+                        "y": 98.3625
+                    },
+                    "uuid": "a5034b49-04aa-4d0f-aa22-a3994739602b"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+5V] of J26",
+                    "pos": {
+                        "x": 60.54,
+                        "y": 98.3625
+                    },
+                    "uuid": "a5034b49-04aa-4d0f-aa22-a3994739602b"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,4638 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of WC4_2 on B.Cu",
+                    "pos": {
+                        "x": 58.04,
+                        "y": 98.3625
+                    },
+                    "uuid": "767c5c82-714d-4983-9144-ea30dc08179e"
+                },
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 98.5
+                    },
+                    "uuid": "5362aee4-16fe-4ec4-9ee7-175b9129971a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +5V)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of WC4_2 on B.Cu",
+                    "pos": {
+                        "x": 133.04,
+                        "y": 145.3625
+                    },
+                    "uuid": "dab6aba8-78ab-43fb-9633-12769c123400"
+                },
+                {
+                    "description": "PTH pad 1 [+5V] of J27",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 146.0
+                    },
+                    "uuid": "791464f4-0675-4907-9293-112544d302cf"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,4638 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of WC4_2 on B.Cu",
+                    "pos": {
+                        "x": 133.04,
+                        "y": 145.3625
+                    },
+                    "uuid": "dab6aba8-78ab-43fb-9633-12769c123400"
+                },
+                {
+                    "description": "Pad 1 [+5V] of WC4_1 on B.Cu",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 145.5
+                    },
+                    "uuid": "5cb4ca87-f0f3-4a96-8dd4-f065b65e7916"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [OW] of R18 on B.Cu",
+                    "pos": {
+                        "x": 91.2,
+                        "y": 84.0
+                    },
+                    "uuid": "bd9bc121-2139-4251-bf8d-c6b95d982bc1"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [+3V3] of R18 on B.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.0
+                    },
+                    "uuid": "8a3b0157-871a-49c6-bc18-76f75b44141a"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'LUT copper clearance' clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [BASE1] of R13 on B.Cu",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 72.5
+                    },
+                    "uuid": "a6297371-2927-48c3-aaa7-d2331cd5ae87"
+                },
+                {
+                    "description": "Zone 'GND_BOTTOM_A' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 30.575,
+                        "y": 30.575
+                    },
+                    "uuid": "a7a894af-083c-45ed-babd-70629a602e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R13",
+                    "pos": {
+                        "x": 52.4,
+                        "y": 70.0
+                    },
+                    "uuid": "492543c7-66b0-4642-8c1f-6f4764c9cf88"
+                },
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 69.9
+                    },
+                    "uuid": "51930567-0eff-4127-9d31-bc1db10df42a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

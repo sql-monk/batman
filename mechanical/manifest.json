@@ -1,0 +1,1473 @@
+{
+  "outer_mm": [
+    220,
+    220,
+    216
+  ],
+  "groove_height_mm": 2.4,
+  "carrier_thickness_mm": 2,
+  "slides": [
+    {
+      "name": "L1 carrier A",
+      "lane": "left",
+      "level": 40,
+      "min_y": -98.0,
+      "max_y": 4.0,
+      "center_x": -49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L1 carrier B",
+      "lane": "right",
+      "level": 40,
+      "min_y": -98.0,
+      "max_y": -4.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L1 carrier C",
+      "lane": "left",
+      "level": 40,
+      "min_y": 33.0,
+      "max_y": 95.0,
+      "center_x": -49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L1 carrier D",
+      "lane": "right",
+      "level": 40,
+      "min_y": 41.0,
+      "max_y": 103.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L1 carrier ADS pair",
+      "lane": "right",
+      "level": 40,
+      "min_y": 4.0,
+      "max_y": 36.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L2 carrier DPS",
+      "lane": "left",
+      "level": 123,
+      "min_y": -98.0,
+      "max_y": 6.0,
+      "center_x": -49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L2 carrier relay supply",
+      "lane": "left",
+      "level": 123,
+      "min_y": 10.0,
+      "max_y": 103.0,
+      "center_x": -49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L2 carrier branch 1",
+      "lane": "right",
+      "level": 123,
+      "min_y": -94.0,
+      "max_y": -36.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L2 carrier branch 2",
+      "lane": "right",
+      "level": 123,
+      "min_y": -32.0,
+      "max_y": 26.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    },
+    {
+      "name": "L2 carrier branch 3",
+      "lane": "right",
+      "level": 123,
+      "min_y": 30.0,
+      "max_y": 88.0,
+      "center_x": 49,
+      "width": 92,
+      "thickness": 2
+    }
+  ],
+  "parts": [
+    {
+      "name": "base",
+      "size_mm": [
+        220.0,
+        220.0,
+        3.0
+      ],
+      "group": "L0 base"
+    },
+    {
+      "name": "corner post",
+      "size_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "group": "Structure"
+    },
+    {
+      "name": "corner post.001",
+      "size_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "group": "Structure"
+    },
+    {
+      "name": "corner post.002",
+      "size_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "group": "Structure"
+    },
+    {
+      "name": "corner post.003",
+      "size_mm": [
+        9.0,
+        9.0,
+        210.0
+      ],
+      "group": "Structure"
+    },
+    {
+      "name": "L1 logic frame grooved frame",
+      "size_mm": [
+        211.0,
+        212.0,
+        8.400001525878906
+      ],
+      "group": "L1 logic frame"
+    },
+    {
+      "name": "L1 logic frame removable retainer",
+      "size_mm": [
+        211.0,
+        4.0,
+        8.399999618530273
+      ],
+      "group": "L1 logic frame"
+    },
+    {
+      "name": "L2 power frame grooved frame",
+      "size_mm": [
+        211.0,
+        212.0,
+        20.0
+      ],
+      "group": "L2 power frame"
+    },
+    {
+      "name": "L2 power frame removable retainer",
+      "size_mm": [
+        211.0,
+        4.0,
+        8.399999618530273
+      ],
+      "group": "L2 power frame"
+    },
+    {
+      "name": "L1 carrier A plate",
+      "size_mm": [
+        92.0,
+        102.0,
+        2.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "L1 carrier A pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "A M3 spacer",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "A M3 spacer.001",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "A M3 spacer.002",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "A M3 spacer.003",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier A"
+    },
+    {
+      "name": "L1 carrier B plate",
+      "size_mm": [
+        92.0,
+        94.0,
+        2.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "L1 carrier B pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "B M3 spacer",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "B M3 spacer.001",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "B M3 spacer.002",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "B M3 spacer.003",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier B"
+    },
+    {
+      "name": "L1 carrier C plate",
+      "size_mm": [
+        92.0,
+        62.0,
+        2.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "L1 carrier C pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "C M3 spacer",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "C M3 spacer.001",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "C M3 spacer.002",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "C M3 spacer.003",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier C"
+    },
+    {
+      "name": "L1 carrier D plate",
+      "size_mm": [
+        92.0,
+        62.0,
+        2.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "L1 carrier D pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "D M3 spacer",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "D M3 spacer.001",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "D M3 spacer.002",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "D M3 spacer.003",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L1 carrier D"
+    },
+    {
+      "name": "L1 carrier ADS pair plate",
+      "size_mm": [
+        92.0,
+        32.0,
+        2.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "L1 carrier ADS pair pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x48 edge support",
+      "size_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x48 edge support.001",
+      "size_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x48 adjustable edge saddle",
+      "size_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x48 adjustable edge saddle.001",
+      "size_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x49 edge support",
+      "size_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x49 edge support.001",
+      "size_mm": [
+        28.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x49 adjustable edge saddle",
+      "size_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "ADS 0x49 adjustable edge saddle.001",
+      "size_mm": [
+        32.0,
+        3.0,
+        5.0
+      ],
+      "group": "L1 carrier ADS pair"
+    },
+    {
+      "name": "L2 carrier DPS plate",
+      "size_mm": [
+        92.0,
+        104.0,
+        2.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "L2 carrier DPS pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "DPS M3 spacer",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "DPS M3 spacer.001",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "DPS M3 spacer.002",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "DPS M3 spacer.003",
+      "size_mm": [
+        8.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier DPS"
+    },
+    {
+      "name": "L2 carrier relay supply plate",
+      "size_mm": [
+        92.0,
+        93.0,
+        2.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "L2 carrier relay supply pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "module edge support",
+      "size_mm": [
+        50.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "module edge support.001",
+      "size_mm": [
+        50.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "adjustable module edge saddle",
+      "size_mm": [
+        54.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "adjustable module edge saddle.001",
+      "size_mm": [
+        54.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "module edge support.002",
+      "size_mm": [
+        44.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "module edge support.003",
+      "size_mm": [
+        44.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "adjustable module edge saddle.002",
+      "size_mm": [
+        48.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "adjustable module edge saddle.003",
+      "size_mm": [
+        48.0,
+        3.0,
+        5.0
+      ],
+      "group": "L2 carrier relay supply"
+    },
+    {
+      "name": "L2 carrier branch 1 plate",
+      "size_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "L2 carrier branch 1 pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.004",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.005",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle.001",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.006",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.007",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle.002",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle.003",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.008",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "module edge support.009",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle.004",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "provisional adjustable saddle.005",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 1"
+    },
+    {
+      "name": "L2 carrier branch 2 plate",
+      "size_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "L2 carrier branch 2 pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.010",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.011",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.006",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.007",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.012",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.013",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.008",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.009",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.014",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "module edge support.015",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.010",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "provisional adjustable saddle.011",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 2"
+    },
+    {
+      "name": "L2 carrier branch 3 plate",
+      "size_mm": [
+        92.0,
+        58.0,
+        2.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "L2 carrier branch 3 pull lip",
+      "size_mm": [
+        24.0,
+        3.0,
+        7.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.016",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.017",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.012",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.013",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.018",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.019",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.014",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.015",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.020",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "module edge support.021",
+      "size_mm": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.016",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "provisional adjustable saddle.017",
+      "size_mm": [
+        3.0,
+        23.0,
+        5.0
+      ],
+      "group": "L2 carrier branch 3"
+    },
+    {
+      "name": "C1 C2 adjustable cradle",
+      "size_mm": [
+        62.0,
+        32.0,
+        3.0
+      ],
+      "group": "L0 capacitors - PROVISIONAL"
+    },
+    {
+      "name": "capacitor strap guide",
+      "size_mm": [
+        3.0,
+        26.0,
+        4.0
+      ],
+      "group": "L0 capacitors - PROVISIONAL"
+    },
+    {
+      "name": "capacitor strap guide.001",
+      "size_mm": [
+        3.0,
+        26.0,
+        4.0
+      ],
+      "group": "L0 capacitors - PROVISIONAL"
+    },
+    {
+      "name": "wall left",
+      "size_mm": [
+        3.0,
+        220.0,
+        210.0
+      ],
+      "group": "Shell sides"
+    },
+    {
+      "name": "wall right",
+      "size_mm": [
+        3.0,
+        220.0,
+        210.0
+      ],
+      "group": "Shell sides"
+    },
+    {
+      "name": "panel back - interface blanks",
+      "size_mm": [
+        214.0,
+        3.0,
+        210.0
+      ],
+      "group": "Shell back"
+    },
+    {
+      "name": "panel front",
+      "size_mm": [
+        214.0,
+        3.0,
+        210.0
+      ],
+      "group": "Shell front"
+    },
+    {
+      "name": "lid ventilated",
+      "size_mm": [
+        220.0,
+        220.0,
+        3.0
+      ],
+      "group": "Lid"
+    }
+  ],
+  "envelopes": [
+    {
+      "name": "PCB A envelope",
+      "center_mm": [
+        -49.0,
+        -47.0,
+        48.0
+      ],
+      "size_mm": [
+        78.0,
+        78.0,
+        1.600000023841858
+      ]
+    },
+    {
+      "name": "ESP32 envelope",
+      "center_mm": [
+        -60.0,
+        -49.0,
+        55.29999923706055
+      ],
+      "size_mm": [
+        28.0,
+        55.0,
+        13.0
+      ]
+    },
+    {
+      "name": "PCB B envelope",
+      "center_mm": [
+        49.0,
+        -51.0,
+        48.0
+      ],
+      "size_mm": [
+        86.0,
+        68.0,
+        1.600000023841858
+      ]
+    },
+    {
+      "name": "PCB C envelope",
+      "center_mm": [
+        -49.0,
+        64.0,
+        48.0
+      ],
+      "size_mm": [
+        43.0,
+        33.0,
+        1.600000023841858
+      ]
+    },
+    {
+      "name": "PCB D envelope",
+      "center_mm": [
+        49.0,
+        72.0,
+        48.0
+      ],
+      "size_mm": [
+        63.0,
+        40.0,
+        1.600000023841858
+      ]
+    },
+    {
+      "name": "ADS 0x48 envelope",
+      "center_mm": [
+        29.0,
+        20.0,
+        51.20000076293945
+      ],
+      "size_mm": [
+        28.0,
+        17.0,
+        8.0
+      ]
+    },
+    {
+      "name": "ADS 0x49 envelope",
+      "center_mm": [
+        77.0,
+        20.0,
+        51.20000076293945
+      ],
+      "size_mm": [
+        28.0,
+        17.0,
+        8.0
+      ]
+    },
+    {
+      "name": "DPS5015 envelope",
+      "center_mm": [
+        -49.0,
+        -46.0,
+        150.1999969482422
+      ],
+      "size_mm": [
+        67.0,
+        91.0,
+        40.0
+      ]
+    },
+    {
+      "name": "mREL2 envelope",
+      "center_mm": [
+        -53.0,
+        36.0,
+        139.6999969482422
+      ],
+      "size_mm": [
+        50.0,
+        40.0,
+        19.0
+      ]
+    },
+    {
+      "name": "LM2596 envelope",
+      "center_mm": [
+        -53.0,
+        83.0,
+        137.6999969482422
+      ],
+      "size_mm": [
+        44.0,
+        22.0,
+        15.0
+      ]
+    },
+    {
+      "name": "mACS1 envelope",
+      "center_mm": [
+        22.0,
+        -70.0,
+        134.1999969482422
+      ],
+      "size_mm": [
+        17.799999237060547,
+        20.299999237060547,
+        8.0
+      ]
+    },
+    {
+      "name": "mSW1 envelope",
+      "center_mm": [
+        51.0,
+        -70.0,
+        137.1999969482422
+      ],
+      "size_mm": [
+        20.299999237060547,
+        25.399999618530273,
+        14.0
+      ]
+    },
+    {
+      "name": "mDIO1 envelope",
+      "center_mm": [
+        81.0,
+        -70.0,
+        132.6999969482422
+      ],
+      "size_mm": [
+        17.0,
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "name": "mACS2 envelope",
+      "center_mm": [
+        22.0,
+        -8.0,
+        134.1999969482422
+      ],
+      "size_mm": [
+        17.799999237060547,
+        20.299999237060547,
+        8.0
+      ]
+    },
+    {
+      "name": "mSW2 envelope",
+      "center_mm": [
+        51.0,
+        -8.0,
+        137.1999969482422
+      ],
+      "size_mm": [
+        20.299999237060547,
+        25.399999618530273,
+        14.0
+      ]
+    },
+    {
+      "name": "mDIO2 envelope",
+      "center_mm": [
+        81.0,
+        -8.0,
+        132.6999969482422
+      ],
+      "size_mm": [
+        17.0,
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "name": "mACS3 envelope",
+      "center_mm": [
+        22.0,
+        54.0,
+        134.1999969482422
+      ],
+      "size_mm": [
+        17.799999237060547,
+        20.299999237060547,
+        8.0
+      ]
+    },
+    {
+      "name": "LOAD node envelope",
+      "center_mm": [
+        51.0,
+        54.0,
+        137.6999969482422
+      ],
+      "size_mm": [
+        22.0,
+        20.0,
+        15.0
+      ]
+    },
+    {
+      "name": "mDIO3 envelope",
+      "center_mm": [
+        81.0,
+        54.0,
+        132.6999969482422
+      ],
+      "size_mm": [
+        17.0,
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "name": "C1 placeholder D12 H22 - NOT MEASURED",
+      "center_mm": [
+        51.0,
+        78.0,
+        17.0
+      ],
+      "size_mm": [
+        12.0,
+        12.0,
+        22.0
+      ]
+    },
+    {
+      "name": "C2 TBD envelope",
+      "center_mm": [
+        62.0,
+        78.0,
+        9.5
+      ],
+      "size_mm": [
+        6.0,
+        4.0,
+        7.0
+      ]
+    },
+    {
+      "name": "BAT1 terminal TBD envelope",
+      "center_mm": [
+        -75.0,
+        94.0,
+        20.0
+      ],
+      "size_mm": [
+        32.0,
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "name": "BAT1 ATO TBD envelope",
+      "center_mm": [
+        -75.0,
+        94.0,
+        72.0
+      ],
+      "size_mm": [
+        30.0,
+        15.0,
+        20.0
+      ]
+    },
+    {
+      "name": "BAT2 terminal TBD envelope",
+      "center_mm": [
+        -25.0,
+        94.0,
+        20.0
+      ],
+      "size_mm": [
+        32.0,
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "name": "BAT2 ATO TBD envelope",
+      "center_mm": [
+        -25.0,
+        94.0,
+        72.0
+      ],
+      "size_mm": [
+        30.0,
+        15.0,
+        20.0
+      ]
+    },
+    {
+      "name": "PSU terminal TBD envelope",
+      "center_mm": [
+        25.0,
+        94.0,
+        20.0
+      ],
+      "size_mm": [
+        32.0,
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "name": "PSU ATO TBD envelope",
+      "center_mm": [
+        25.0,
+        94.0,
+        72.0
+      ],
+      "size_mm": [
+        30.0,
+        15.0,
+        20.0
+      ]
+    },
+    {
+      "name": "LOAD terminal TBD envelope",
+      "center_mm": [
+        75.0,
+        94.0,
+        20.0
+      ],
+      "size_mm": [
+        32.0,
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "name": "LOAD ATO TBD envelope",
+      "center_mm": [
+        75.0,
+        94.0,
+        72.0
+      ],
+      "size_mm": [
+        30.0,
+        15.0,
+        20.0
+      ]
+    }
+  ]
+}

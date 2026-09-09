@@ -1,0 +1,8 @@
+{
+  "jumper_models_removed": true,
+  "J22_to_J1_copper": [
+    "+3V3",
+    "GND",
+    "SENS_PWR"
+  ]
+}

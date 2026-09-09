@@ -1,0 +1,68 @@
+(footprint "100u_50V"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C1"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "af505ca9-60f3-4da2-a979-6b18e65fae93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100u_50V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cfd35da-ded9-464f-9601-1851be45b8f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e71f604-04a9-4b42-94a5-cd5ff5aae6b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d9ab1ea-9976-4a3a-a102-17ab5e9e91fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "e55926a9-9db3-487a-ae3c-d7e1aada9291")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "d18bdbde-819a-4849-ab1e-a8aa91552791")
+	)
+	(embedded_fonts no)
+)

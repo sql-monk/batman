@@ -1,0 +1,75 @@
+(footprint "LUT_WC2_3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "WC2_3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cfb3c3ab-7bac-4a90-bcff-890f625b6979")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "EXTERNAL_CABLE_NOT_PCB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50b0a92f-c6a8-4d41-8ce9-e02873a239f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c6cfd8-b203-493c-b975-9971273a15c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83de1ea4-8f96-4f97-9faa-4c6e4eb78483")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 0)
+		(end -15 80.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "508f1fe6-e7a1-49f3-9bea-dbd949b5be1c")
+	)
+	(pad "1" smd circle
+		(at -15 80.3 270)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "ed7e9a17-37ca-4f55-bfd4-4294179a7409")
+	)
+	(pad "1" smd circle
+		(at 0 0 270)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "08354a33-a5ce-47ec-9cd5-7fc4aba86718")
+	)
+	(embedded_fonts no)
+)

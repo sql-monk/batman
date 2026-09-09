@@ -1,0 +1,5 @@
+Ref,Net,A_X1_mm,A_Y1_mm,X2_mm,Y2_mm,Wire_cut_min_mm,End1,End2
+WA1,+3V3,69.0,29.0,69.0,17.0,12.0,existing pad,existing pad
+WA2,SDA,69.0,36.62,69.0,24.62,12.0,existing pad,existing pad
+WA3,SENS_PWR,15.08,40.0,28.0,39.94,12.92,existing pad,existing pad
+WA4,SW1_ON,15.46,32.32,28.0,32.32,12.54,existing pad,existing pad

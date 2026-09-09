@@ -1,0 +1,99 @@
+{
+  "board_sizes_mm": [
+    {
+      "board": "A",
+      "size": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "board": "B",
+      "size": [
+        90.0,
+        70.0
+      ]
+    },
+    {
+      "board": "C",
+      "size": [
+        45.0,
+        35.0
+      ]
+    },
+    {
+      "board": "D",
+      "size": [
+        65.0,
+        40.0
+      ]
+    }
+  ],
+  "tracks": 774,
+  "footprints": 98,
+  "local_wire_jumpers": 4,
+  "interboard_cables": 5,
+  "interboard_conductors": 13,
+  "adc_addresses": [
+    "0x48",
+    "0x49"
+  ],
+  "adc_location": "external modules",
+  "adc_harnesses": 4,
+  "adc_harness_conductors": 16,
+  "copper_layers_routed": [
+    "B.Cu"
+  ],
+  "vias": 0,
+  "signal_min_width_mm": 0.7,
+  "clearance_mm": 0.5,
+  "bus_buffer": "external wiring",
+  "drilled_holes": 175,
+  "modules": {
+    "A": {
+      "name": "ESP controller",
+      "size_mm": [
+        80,
+        80
+      ],
+      "jumpers": 4,
+      "drc_violations": 0,
+      "unconnected": 0
+    },
+    "B": {
+      "name": "Analog filters / outputs",
+      "size_mm": [
+        90,
+        70
+      ],
+      "jumpers": 0,
+      "drc_violations": 0,
+      "unconnected": 0
+    },
+    "C": {
+      "name": "3V3 distribution",
+      "size_mm": [
+        45,
+        35
+      ],
+      "jumpers": 0,
+      "drc_violations": 0,
+      "unconnected": 0
+    },
+    "D": {
+      "name": "5V distribution / power OR",
+      "size_mm": [
+        65,
+        40
+      ],
+      "jumpers": 0,
+      "drc_violations": 0,
+      "unconnected": 0
+    }
+  },
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_issues": 0,
+  "release_status": "PROTOTYPE - physical fit and bench safety gates not verified"
+}

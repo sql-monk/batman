@@ -1,0 +1,77 @@
+(footprint "LUT_W42"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "W42"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2eabf0bd-17e7-483a-a8fc-b80b8dda2c01")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "INSULATED_WIRE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48a9d1b7-f851-4447-b504-01f5b3f5ca1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b3e620-1dcc-44fa-83ba-55e7dcaa9508")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9837b208-3691-45a5-a8ff-14da68458456")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 0)
+		(end -35 -7.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d09dc0d5-2eb8-494a-92fc-d03b23e3172b")
+	)
+	(pad "1" smd circle
+		(at -35 -7.25)
+		(size 2 2)
+		(layers "B.Cu")
+		(uuid "cfed4182-a5e3-42fa-ab50-cb4bf373e718")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "5c56cb8c-aca1-4bbb-be9c-5eab3f504653")
+	)
+	(embedded_fonts no)
+)

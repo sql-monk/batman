@@ -1,0 +1,129 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T18:44:14",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "copper-only.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 8,0000 mm",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 42.0
+                    },
+                    "uuid": "3e859ebb-164c-4a49-82e4-03559365c937"
+                },
+                {
+                    "description": "Track [+3V3] on B.Cu, length 1,9517 mm",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 54.1
+                    },
+                    "uuid": "bd9e8bd6-63f3-4b88-b5d4-160296f21d6d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [SCL] of J10",
+                    "pos": {
+                        "x": 95.54,
+                        "y": 38.0
+                    },
+                    "uuid": "f316d024-54a0-4803-8c7f-29fa80513d69"
+                },
+                {
+                    "description": "Track [SCL] on B.Cu, length 8,0000 mm",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 47.08
+                    },
+                    "uuid": "5394d34e-3099-40ed-9298-c7b6d23b2290"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SCL] of R17 on B.Cu",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 57.9
+                    },
+                    "uuid": "4a549090-d2be-4529-975c-f9b6d757cceb"
+                },
+                {
+                    "description": "Track [SCL] on B.Cu, length 8,0000 mm",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 47.08
+                    },
+                    "uuid": "5394d34e-3099-40ed-9298-c7b6d23b2290"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [BTN] of J11",
+                    "pos": {
+                        "x": 42.54,
+                        "y": 69.0
+                    },
+                    "uuid": "eaeae0da-aeb5-4d54-bb05-519b5fde2fc2"
+                },
+                {
+                    "description": "PTH pad 7 [BTN] of J1",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 57.24
+                    },
+                    "uuid": "c0dfb267-5fb8-4a27-8222-88af82779ab6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

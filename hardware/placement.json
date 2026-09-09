@@ -1,0 +1,338 @@
+{
+  "J1": {
+    "position": [
+      38.0,
+      24.0
+    ],
+    "rotation": 0
+  },
+  "J2": {
+    "position": [
+      8.0,
+      20.0
+    ],
+    "rotation": 0
+  },
+  "J3": {
+    "position": [
+      5.5,
+      36.5
+    ],
+    "rotation": 0
+  },
+  "J4": {
+    "position": [
+      13.5,
+      48.0
+    ],
+    "rotation": -270
+  },
+  "J5": {
+    "position": [
+      17.0,
+      34.5
+    ],
+    "rotation": -90
+  },
+  "J6": {
+    "position": [
+      32.5,
+      46.5
+    ],
+    "rotation": -180
+  },
+  "J7": {
+    "position": [
+      29.0,
+      44.5
+    ],
+    "rotation": 0
+  },
+  "J8": {
+    "position": [
+      16.5,
+      66.5
+    ],
+    "rotation": 0
+  },
+  "J9": {
+    "position": [
+      76.0,
+      52.5
+    ],
+    "rotation": -90
+  },
+  "J10": {
+    "position": [
+      78.5,
+      30.0
+    ],
+    "rotation": -180
+  },
+  "J11": {
+    "position": [
+      32.5,
+      39.5
+    ],
+    "rotation": -180
+  },
+  "J12": {
+    "position": [
+      70.5,
+      49.0
+    ],
+    "rotation": -270
+  },
+  "X1": {
+    "position": [
+      48.0,
+      4.5
+    ],
+    "rotation": 0
+  },
+  "X2": {
+    "position": [
+      62.5,
+      4.5
+    ],
+    "rotation": 0
+  },
+  "X3": {
+    "position": [
+      8.0,
+      74.0
+    ],
+    "rotation": 0
+  },
+  "X4": {
+    "position": [
+      70.5,
+      58.5
+    ],
+    "rotation": 0
+  },
+  "X5": {
+    "position": [
+      93.0,
+      31.5
+    ],
+    "rotation": -270
+  },
+  "NT1": {
+    "position": [
+      8.0,
+      74.0
+    ],
+    "rotation": 0
+  },
+  "VD1": {
+    "position": [
+      40.5,
+      4.5
+    ],
+    "rotation": -180
+  },
+  "VD2": {
+    "position": [
+      40.5,
+      8.0
+    ],
+    "rotation": -180
+  },
+  "R1": {
+    "position": [
+      31.5,
+      5.5
+    ],
+    "rotation": -180
+  },
+  "R2": {
+    "position": [
+      25.2,
+      5.5
+    ],
+    "rotation": -180
+  },
+  "C3": {
+    "position": [
+      21.0,
+      9.0
+    ],
+    "rotation": -180
+  },
+  "R3": {
+    "position": [
+      33.0,
+      10.0
+    ],
+    "rotation": -90
+  },
+  "R4": {
+    "position": [
+      30.5,
+      10.0
+    ],
+    "rotation": -270
+  },
+  "C4": {
+    "position": [
+      27.0,
+      14.5
+    ],
+    "rotation": -180
+  },
+  "R5": {
+    "position": [
+      87.5,
+      31.5
+    ],
+    "rotation": -180
+  },
+  "R6": {
+    "position": [
+      83.0,
+      29.5
+    ],
+    "rotation": -270
+  },
+  "C5": {
+    "position": [
+      22.0,
+      29.0
+    ],
+    "rotation": -270
+  },
+  "R7": {
+    "position": [
+      12.0,
+      34.0
+    ],
+    "rotation": 0
+  },
+  "C7": {
+    "position": [
+      8.5,
+      42.5
+    ],
+    "rotation": -90
+  },
+  "R8": {
+    "position": [
+      22.0,
+      43.0
+    ],
+    "rotation": 0
+  },
+  "C8": {
+    "position": [
+      29.5,
+      29.0
+    ],
+    "rotation": 0
+  },
+  "R9": {
+    "position": [
+      19.5,
+      37.5
+    ],
+    "rotation": -270
+  },
+  "C9": {
+    "position": [
+      23.0,
+      37.5
+    ],
+    "rotation": -90
+  },
+  "C6": {
+    "position": [
+      8.0,
+      25.0
+    ],
+    "rotation": -180
+  },
+  "R10": {
+    "position": [
+      30.0,
+      56.5
+    ],
+    "rotation": -180
+  },
+  "R11": {
+    "position": [
+      23.0,
+      52.5
+    ],
+    "rotation": 0
+  },
+  "Q3": {
+    "position": [
+      20.0,
+      48.0
+    ],
+    "rotation": 0
+  },
+  "R12": {
+    "position": [
+      33.0,
+      51.5
+    ],
+    "rotation": -90
+  },
+  "R13": {
+    "position": [
+      25.5,
+      68.5
+    ],
+    "rotation": -90
+  },
+  "Q1": {
+    "position": [
+      20.0,
+      66.5
+    ],
+    "rotation": -270
+  },
+  "R14": {
+    "position": [
+      33.0,
+      60.0
+    ],
+    "rotation": -180
+  },
+  "R15": {
+    "position": [
+      28.5,
+      62.0
+    ],
+    "rotation": -90
+  },
+  "Q2": {
+    "position": [
+      13.5,
+      63.0
+    ],
+    "rotation": -180
+  },
+  "R16": {
+    "position": [
+      17.5,
+      22.5
+    ],
+    "rotation": 0
+  },
+  "R17": {
+    "position": [
+      11.0,
+      22.5
+    ],
+    "rotation": -180
+  },
+  "R18": {
+    "position": [
+      66.5,
+      56.5
+    ],
+    "rotation": -90
+  }
+}

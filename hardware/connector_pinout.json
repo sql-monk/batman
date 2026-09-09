@@ -1,0 +1,17 @@
+{
+  "J3": ["I_RAW1", "GND", "+3V3_SENS"],
+  "J4": ["I_RAW2", "GND", "+3V3_SENS"],
+  "J5": ["+3V3_SENS", "I_RAW3", "GND"],
+  "J6": ["GND", "SW1_ON"],
+  "J7": ["GND", "SW2_ON"],
+  "J8": ["RELAY_IN1", "GND", "RELAY_IN2", "+5V_RELAY_VCC", "+5V_RELAY_COIL"],
+  "J9": ["DPS_TX", "DPS_RX", "GND"],
+  "J10": ["+3V3", "SCL", "SDA", "GND"],
+  "J11": ["GND", "BTN"],
+  "J12": ["MOSI", "GND", "MISO", "SCK", "CS", "+3V3"],
+  "X1": ["B1", "B2", "GND"],
+  "X2": ["VIN_DC", "GND"],
+  "X3": ["+5V", "GND"],
+  "X4": ["OW", "+3V3", "GND"],
+  "X5": ["LOAD+"]
+}

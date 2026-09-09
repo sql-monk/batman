@@ -1,0 +1,38 @@
+2026-09-09 17:21:12.895 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-09 17:21:14.553 INFO   [57DE14\A23061] Loading board file 'routing.dsn'...
+2026-09-09 17:21:14.613 INFO   [57DE14\A23061] Job '57DE14\A23061' started at 2026-09-09T14:21:14.613060400Z.
+2026-09-09 17:21:14.668 INFO   [57DE14\A23061] Auto-routing stage started on board '17260b351c3007e57af98a69034a1e9d' for 56 unrouted items.
+2026-09-09 17:21:21.439 INFO   [57DE14\A23061] Auto-routing pass #1 on board '17260b351c3007e57af98a69034a1e9d' was completed in 6.73 seconds with score 821.42 (10 unrouted and 0 violations), using 2.47 CPU seconds and the job allocated 4.11 GB of memory so far.
+2026-09-09 17:21:24.656 INFO   [57DE14\A23061] Auto-routing pass #2 on board '1ea07988d469098768ff1c8208ccf58d' was completed in 3.02 seconds with score 803.57 (11 unrouted and 0 violations), using 3.30 CPU seconds and the job allocated 5.90 GB of memory so far.
+2026-09-09 17:21:26.798 INFO   [57DE14\A23061] Auto-routing pass #3 on board '36d9948cd7488ada8e362083770343bb' was completed in 2.11 seconds with score 874.99 (7 unrouted and 0 violations), using 4.53 CPU seconds and the job allocated 9.15 GB of memory so far.
+2026-09-09 17:21:29.066 INFO   [57DE14\A23061] Auto-routing pass #4 on board 'ef37dbbfd3a14c7d175a3257ed19ea33' was completed in 2.19 seconds with score 839.28 (9 unrouted and 0 violations), using 6.17 CPU seconds and the job allocated 12.81 GB of memory so far.
+2026-09-09 17:21:31.888 INFO   [57DE14\A23061] Auto-routing pass #5 on board 'ca21f8640f32ecb4779d2e9f85d8a87e' was completed in 2.76 seconds with score 874.99 (7 unrouted and 0 violations), using 6.95 CPU seconds and the job allocated 14.81 GB of memory so far.
+2026-09-09 17:21:33.177 INFO   [57DE14\A23061] Auto-routing pass #6 on board 'ad2972636c6589cf52c82923fa6ef2ec' was completed in 1.23 seconds with score 910.71 (5 unrouted and 0 violations), using 8.00 CPU seconds and the job allocated 17.35 GB of memory so far.
+2026-09-09 17:21:34.736 INFO   [57DE14\A23061] Auto-routing pass #7 on board 'd72aaca80a7d0705fcb31552e151494d' was completed in 1.51 seconds with score 910.71 (5 unrouted and 0 violations), using 8.47 CPU seconds and the job allocated 18.50 GB of memory so far.
+2026-09-09 17:21:36.277 INFO   [57DE14\A23061] Auto-routing pass #8 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 1.50 seconds with score 910.71 (5 unrouted and 0 violations), using 9.53 CPU seconds and the job allocated 21.50 GB of memory so far.
+2026-09-09 17:21:37.301 INFO   [57DE14\A23061] Auto-routing pass #9 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.99 seconds with score 910.71 (5 unrouted and 0 violations), using 10.19 CPU seconds and the job allocated 22.93 GB of memory so far.
+2026-09-09 17:21:38.919 INFO   [57DE14\A23061] Auto-routing pass #10 on board '35670296029ef82420e0a4bd3ca16026' was completed in 1.56 seconds with score 892.85 (6 unrouted and 0 violations), using 10.94 CPU seconds and the job allocated 24.60 GB of memory so far.
+2026-09-09 17:21:40.882 INFO   [57DE14\A23061] Auto-routing pass #11 on board '8491cdb568c0c04d41d0037b9d1157a9' was completed in 1.92 seconds with score 874.99 (7 unrouted and 0 violations), using 12.53 CPU seconds and the job allocated 28.09 GB of memory so far.
+2026-09-09 17:21:42.241 INFO   [57DE14\A23061] Auto-routing pass #12 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.00 seconds with score 910.71 (5 unrouted and 0 violations), using 13.28 CPU seconds and the job allocated 29.63 GB of memory so far.
+2026-09-09 17:21:43.157 INFO   [57DE14\A23061] Auto-routing pass #13 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.89 seconds with score 910.71 (5 unrouted and 0 violations), using 14.02 CPU seconds and the job allocated 31.44 GB of memory so far.
+2026-09-09 17:21:44.696 INFO   [57DE14\A23061] Auto-routing pass #14 on board '35670296029ef82420e0a4bd3ca16026' was completed in 1.52 seconds with score 892.85 (6 unrouted and 0 violations), using 15.59 CPU seconds and the job allocated 35.21 GB of memory so far.
+2026-09-09 17:21:46.114 INFO   [57DE14\A23061] Auto-routing pass #15 on board '6c9a9cc98f02867ea258bba794b67f64' was completed in 1.38 seconds with score 874.99 (7 unrouted and 0 violations), using 16.31 CPU seconds and the job allocated 37.18 GB of memory so far.
+2026-09-09 17:21:47.246 INFO   [57DE14\A23061] Auto-routing pass #16 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.00 seconds with score 910.71 (5 unrouted and 0 violations), using 17.28 CPU seconds and the job allocated 39.53 GB of memory so far.
+2026-09-09 17:21:47.931 INFO   [57DE14\A23061] Auto-routing pass #17 on board 'b3ad966517c4afd8144d0849fd29c661' was completed in 0.65 seconds with score 910.71 (5 unrouted and 0 violations), using 18.06 CPU seconds and the job allocated 41.50 GB of memory so far.
+2026-09-09 17:21:49.221 INFO   [57DE14\A23061] Auto-routing pass #18 on board 'e66c4716b1d9d8e7aa6aedc5e7906e3f' was completed in 1.25 seconds with score 892.85 (6 unrouted and 0 violations), using 18.91 CPU seconds and the job allocated 43.89 GB of memory so far.
+2026-09-09 17:21:49.239 INFO   [57DE14\A23061] The router's best score (910.71) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (5 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '+3V3' (1 unrouted connection):
+    - J21-p0  ->  J20-p0
+  Net 'GND' (2 unrouted connections):
+    - J20-p1  ->  J21-p1
+    - J20-p1  ->  J1-p12
+  Net 'SCL' (2 unrouted connections):
+    - R17-p0  ->  J21-p2
+    - R17-p0  ->  J20-p2
+  Net 'BTN' (1 unrouted connection):
+    - J11-p1  ->  J1-p35
+2026-09-09 17:21:49.329 INFO   [57DE14\A23061] Auto-routing stage completed: started with 56 unrouted nets, completed in 34.67 seconds, final score: 910.71 (5 unrouted and 0 violations), using 19.78 total CPU seconds, 46.11 GB total allocated, and 712.3 MB peak heap usage.
+2026-09-09 17:21:49.334 INFO   [57DE14\A23061] Job '57DE14\A23061' finished with state: COMPLETED (elapsed: 34.72 seconds, finished at UTC: 2026-09-09T14:21:49.334476100Z).
+2026-09-09 17:21:49.817 INFO   Saving output file 'C:\repos\batman-a\hardware\batman\reports\gpio33\A\routing.ses' (SES)...
+2026-09-09 17:21:49.831 INFO   Successfully saved output file 'C:\repos\batman-a\hardware\batman\reports\gpio33\A\routing.ses' (12324 bytes).

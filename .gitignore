@@ -1,0 +1,17 @@
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# KiCad lock files and editor history
+*.lck
+**/.history/
+
+# Local Blender backup files
+*.blend1
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/

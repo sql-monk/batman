@@ -1,0 +1,129 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T21:25:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "copper-only.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Доріжка [+3V3] на B.Cu, довжина 8,0000 mm",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 54.1
+                    },
+                    "uuid": "f7df2919-9532-4d26-9646-6da9426a5120"
+                },
+                {
+                    "description": "Доріжка [+3V3] на B.Cu, довжина 8,0000 mm",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 42.0
+                    },
+                    "uuid": "14ed86e8-f1a5-4879-ab7a-a72d20ccccd8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. площадка 2 [SCL] на J10",
+                    "pos": {
+                        "x": 95.54,
+                        "y": 38.0
+                    },
+                    "uuid": "a4905f25-a722-4c0e-9337-e8dcdc0a4171"
+                },
+                {
+                    "description": "PTH конт. площадка 3 [SCL] на J20",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 47.08
+                    },
+                    "uuid": "5f7698a4-e0ba-4e32-836d-22c666a6bdda"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. площадка 1 [SCL] з R17 на B.Cu",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 57.9
+                    },
+                    "uuid": "ef67c5ba-e110-48f1-9529-044c4be41bbe"
+                },
+                {
+                    "description": "Доріжка [SCL] на B.Cu, довжина 8,0000 mm",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 47.08
+                    },
+                    "uuid": "8c5ae78d-a0b4-4094-a534-f380c3679290"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH конт. площадка 2 [BTN] на J11",
+                    "pos": {
+                        "x": 42.54,
+                        "y": 69.0
+                    },
+                    "uuid": "4ec51932-3f0d-4c32-923f-33e6278d5d94"
+                },
+                {
+                    "description": "PTH конт. площадка 7 [BTN] на J1",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 57.24
+                    },
+                    "uuid": "28bd5113-a05e-46ee-be27-a4a3a65c99d0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

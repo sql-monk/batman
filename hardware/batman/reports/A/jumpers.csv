@@ -1,0 +1,5 @@
+Ref,Net,A_X1_mm,A_Y1_mm,X2_mm,Y2_mm,Wire_cut_min_mm,End1,End2
+WA1,+3V3,64.0,24.1,64.0,12.0,12.1,existing pad,existing pad
+WA2,BTN,12.54,39.0,28.0,27.24,19.42,existing pad,existing pad
+WA3,SCL,64.0,17.08,65.54,8.0,9.21,existing pad,existing pad
+WA4,SCL,72.0,17.08,72.0,27.9,10.82,existing pad,existing pad

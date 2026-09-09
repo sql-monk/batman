@@ -1,0 +1,7 @@
+(version 1)
+(rule "LUT copper clearance"
+  (constraint clearance (min 0.5mm)))
+(rule "LUT track width"
+  (constraint track_width (min 0.7mm)))
+(rule "LUT copper edge"
+  (constraint edge_clearance (min 0.5mm)))
