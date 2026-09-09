@@ -842,5 +842,18 @@
     "BATMAN - modular cable kit",
     "BATMAN - modular cable levels"
   ],
-  "full_nut_engagement": true
+  "full_nut_engagement": true,
+  "saved_blend_readable": true,
+  "verified_saved_scenes": [
+    "BATMAN - modular cable alternatives",
+    "BATMAN - modular cable assembly",
+    "BATMAN - modular cable kit",
+    "BATMAN - modular cable levels",
+    "BATMAN - supported cable assembly"
+  ],
+  "previews": [
+    "cad\\cable-modular-levels.png",
+    "cad\\cable-modular-alternatives.png",
+    "cad\\cable-modular-assembly.png"
+  ]
 }
